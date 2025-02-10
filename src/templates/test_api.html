@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Test</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #chat-box {
+            height: 500px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #f8f9fa;
+        }
+
+        .chat-message {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .user-message {
+            background-color: #d1e7dd;
+            border: 1px solid #badbcc;
+        }
+
+        .bot-message {
+            background-color: #f8d7da;
+            border: 1px solid #f5c2c7;
+        }
+
+        .internal-assistant-message {
+            background-color: #e2e3e5;
+            border: 1px solid #d6d8db;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="mt-5">API Test</h1>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <div id="chat-box"></div>
+            </div>
+        </div>
+
+        <!-- User chat input with voice input button -->
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <form id="chat-form">
+                    <div class="form-group">
+                        <label for="question">User Question:</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="question" placeholder="Type your question here"
+                                required>
+                            <div class="input-group-append">
+                                <button type="button" class="btn btn-success" id="voice-button">Start Voice
+                                    Input</button><span id="voice-status" class="ml-2"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="voice-reply">
+                        <label class="form-check-label" for="voice-reply">Reply with Voice</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" id="send-button">Send</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Internal assistant chat input -->
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <form id="internal-chat-form">
+                    <div class="form-group">
+                        <label for="internal-input">Internal Assistant Input:</label>
+                        <input type="text" class="form-control" id="internal-input"
+                            placeholder="Type internal assistant input">
+                    </div>
+                    <button type="submit" class="btn btn-secondary" id="internal-send-button">Submit Internal
+                        Input</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let responseStream;
+        let botMessageElement;
+        let interruptIndex = 0;  // Track where the assistant message was interrupted
+        let storedInternalInput = '';  // To store internal inputs temporarily
+        let mediaRecorder;
+        let audioChunks = [];
+        let isRecording = false;
+        let fullBotResponse = '';  // Store the full response for voice synthesis
+
+        // Display a welcome message from the bot when the page loads
+        window.addEventListener('DOMContentLoaded', function () {
+            const chatBox = document.getElementById('chat-box');
+            const welcomeMessageElement = document.createElement('div');
+            welcomeMessageElement.className = 'chat-message bot-message';
+            welcomeMessageElement.textContent = 'Bot: 您好！我是您的lotus专属AI助手，您可以向我提问！';
+            chatBox.appendChild(welcomeMessageElement);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        });
+
+        // Handle user input and generate a response
+        document.getElementById('chat-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const question = document.getElementById('question').value;
+            if (!question) return;
+
+            const sendButton = document.getElementById('send-button');
+            sendButton.disabled = true;
+
+            const chatBox = document.getElementById('chat-box');
+            const questionElement = document.createElement('div');
+            questionElement.className = 'chat-message user-message';
+            questionElement.textContent = `You: ${question}`;
+            chatBox.appendChild(questionElement);
+            chatBox.scrollTop = chatBox.scrollHeight;
+
+            document.getElementById('question').value = '';
+
+            // Send both the user question and any stored internal input (if available)
+            const payload = {
+                question: question,
+                internal_input: storedInternalInput ? storedInternalInput.trim() : null,  // Send stored internal input if available
+                interrupt_index: null  // User input does not need an interrupt index
+            };
+
+            // Clear stored internal input after it is used
+            storedInternalInput = '';
+
+            // Make the request to generate the response
+            fetch('/api_chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(payload)
+            }).then(response => {
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                botMessageElement = document.createElement('div');
+                botMessageElement.className = 'chat-message bot-message';
+                botMessageElement.innerHTML = '<span class="bot-prefix">Bot: </span><span class="bot-content"></span>';
+                chatBox.appendChild(botMessageElement);
+                chatBox.scrollTop = chatBox.scrollHeight;
+
+                responseStream = reader;
+                streamResponse(decoder, chatBox);
+            }).catch(error => {
+                console.error('Error:', error);
+                sendButton.disabled = false;
+            });
+        });
+
+        // Function to stream the bot response
+        function streamResponse(decoder, chatBox) {
+            responseStream.read().then(({ done, value }) => {
+                if (done) {
+                    document.getElementById('send-button').disabled = false;
+                    // Speak any remaining part of the response
+                    if (document.getElementById('voice-reply').checked && fullBotResponse) {
+                        responsiveVoice.speak(fullBotResponse, 'Chinese Female');
+                        fullBotResponse = '';
+                    }
+                    return;
+                }
+                const jsonText = decoder.decode(value, { stream: true });
+                const lines = jsonText.split('\n');
+                lines.forEach(line => {
+                    if (line) {
+                        const data = JSON.parse(line.substring(6)); // remove "data: " prefix
+                        const botContent = botMessageElement.querySelector('.bot-content');
+                        botContent.innerHTML += data.response.replace(/\n/g, '<br>');
+                        chatBox.scrollTop = chatBox.scrollHeight;
+
+                        // Append the response to the full response for voice synthesis
+                        fullBotResponse += data.response;
+
+                        // Check if the response ends with a punctuation mark indicating the end of a sentence
+                        if (/[.!?]\s*$/.test(fullBotResponse)) {
+                            if (document.getElementById('voice-reply').checked) {
+                                responsiveVoice.speak(fullBotResponse, 'UK English Male');
+                                fullBotResponse = '';  // Clear after speaking
+                            }
+                        }
+                    }
+                });
+                interruptIndex += value.length;  // Update the interrupt index as response continues
+                streamResponse(decoder, chatBox);
+            });
+        }
+
+        // Handle internal assistant submission
+        document.getElementById('internal-chat-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const internalInput = document.getElementById('internal-input').value;
+            if (!internalInput) return;
+
+            // Store the internal input to be used with the next user input
+            storedInternalInput += internalInput + ' ';  // Concatenate internal inputs if provided multiple times
+            const internalSendButton = document.getElementById('internal-send-button');
+            internalSendButton.disabled = true;
+
+            const chatBox = document.getElementById('chat-box');
+            const internalMessageElement = document.createElement('div');
+            internalMessageElement.className = 'chat-message internal-assistant-message';
+            internalMessageElement.textContent = `Internal Assistant: ${internalInput}`;
+            chatBox.appendChild(internalMessageElement);
+            chatBox.scrollTop = chatBox.scrollHeight;
+
+            document.getElementById('internal-input').value = '';
+
+            // Enable the button after storing the input
+            internalSendButton.disabled = false;
+        });
+
+        // Voice input handling with MediaRecorder API
+        document.getElementById('voice-button').addEventListener('click', function () {
+            if (isRecording) {
+                mediaRecorder.stop();
+            } else {
+
+                navigator.mediaDevices.getUserMedia({ audio: true }).then(stream => {
+                    mediaRecorder = new MediaRecorder(stream);
+                    audioChunks = [];
+
+                    mediaRecorder.ondataavailable = function (event) {
+                        audioChunks.push(event.data);
+                    };
+
+                    mediaRecorder.onstop = function () {
+                        const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                        isRecording = false;
+                        document.getElementById('voice-button').textContent = 'Start Voice Input';
+                        document.getElementById('voice-status').textContent = 'Recording stopped';
+                        sendAudioBlob(audioBlob);  // Send the recorded audio to the backend
+                    };
+
+                    mediaRecorder.start();
+                    isRecording = true;
+                    document.getElementById('voice-button').textContent = 'Stop Voice Input';
+                    document.getElementById('voice-status').textContent = 'Recording...';
+                }).catch(error => {
+                    console.error('Error accessing microphone:', error);
+                    document.getElementById('voice-status').textContent = 'Error accessing microphone';
+                });
+            }
+        });
+
+        // Function to send audio blob to backend
+        function sendAudioBlob(audioBlob) {
+            const formData = new FormData();
+            formData.append('audio', audioBlob, 'audio_blob.wav');
+            fetch('/upload-audio', {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        document.getElementById('question').value = data.data.transcription;
+                    } else {
+                        console.error('Error in transcription:', data.message);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error uploading audio:', error);
+                });
+        }
+    </script>
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=XO5dwZ6S">
+
+    </script>
+</body>
+
+</html>

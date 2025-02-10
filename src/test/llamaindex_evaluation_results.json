@@ -1,0 +1,539 @@
+{
+  "summary": {
+    "total_questions": 75,
+    "passing_questions": 68,
+    "passing_rate": 90.66666666666666,
+    "skipped_questions": {
+      "missing_fields": [],
+      "not_in_correct_dict": [],
+      "evaluation_error": []
+    }
+  },
+  "detailed_results": [
+    {
+      "question": "路特斯科技的总部位于哪里？",
+      "generated_answer": "Lotus Technology 的总部位于中国武汉。根据相关信息，Lotus Technology 正在武汉建设其总部，并已获得相应的土地使用权证书。该总部的建设正在按计划进行，旨在支持公司的全球研发和运营活动。此信息基于2024-09-19前的知识。",
+      "reference_answer": "Lotus Technology 的全球总部位于中国武汉。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技股票在哪个交易所交易？股票代码是多少？",
+      "generated_answer": "Lotus Technology的股票在纳斯达克交易所上市，股票代码为“LOT”，认股权证的代码为“LOTWW”。此信息基于2024年11月20日的知识。",
+      "reference_answer": "Lotus Technology的股票在纳斯达克（Nasdaq）上市，其美国存托股份（ADSs）和认股权证分别以“LOT”和“LOTWW”为代码进行交易。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技的一股美国存托股份【ADS】代表多少股普通股？",
+      "generated_answer": "每个Lotus Technology的美国存托股份（ADS）代表一股普通股（Ordinary Share）。此信息基于2024年9月19日之前的知识。",
+      "reference_answer": "每一股美国存托股份（ADS）代表一股Lotus Technology的普通股。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技的主营业务是什么？",
+      "generated_answer": "Lotus Technology 的主要业务包括设计、开发和销售豪华电池电动汽车（BEV生活方式车型），以及销售豪华跑车。此外，公司还提供汽车设计和开发服务、售后服务、汽车零部件和周边产品。Lotus Technology 通过其全资子公司、可变利益实体（VIE）及其子公司的集团，主要在汽车及相关行业开展业务，包括研究、生产和开发活动。\n\n以上信息基于2024年10月01日前的知识。",
+      "reference_answer": "Lotus Technology 的主要业务包括设计、开发和销售以“Lotus”品牌命名的豪华电池电动汽车（BEV生活方式车型），以及销售以“Lotus”品牌命\n名的豪华跑车。此外，Lotus Technology 还提供汽车零部件和周边产品，并通过为OEM客户提供汽车设计和开发服务、技术相关服务及售后服务来生成收入。L\notus Technology 也从事汽车及其关键部件的研发活动，以及汽车工程开发服务。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技与路特斯汽车的关系是什么？",
+      "generated_answer": "Lotus Technology 与 Lotus Cars 之间的关系是通过一系列合作协议和分销协议建立的。具体来说，Lotus Technology 被任命为 Lotus Cars Limited（即 Lotus UK）生产的车辆、零部件和某些工具的全球独家分销商（不包括美国，美国的分销由 Lotus Technology International Limited 负责）。根据分销协议，Lotus Technology 负责这些车辆的销售、品牌推广、市场营销、公共关系以及售后服务。此外，每年 Lotus Technology 和 Lotus UK 会共同制定业务计划和年度目标，考虑历史销售数据、需求预测、国家和地区趋势以及 Lotus UK 的生产产能。此外，根据协议，现有的 Lotus UK 销售店和经销商将转移给 Lotus Technology。\n\n这些合作使得 Lotus Technology 能够利用 Geely Holding 的资源和优势，加速产品开发和商业化，同时保持轻资产运营模式，减少前期资本支出。\n\n以上信息基于 2024-09-19 之前的知识。",
+      "reference_answer": "路特斯汽车是跑车生产主体，而路特斯科技是路特斯品牌、IP、全球营销、以及资本市场运作主体，也是纳斯达克上市主体（LOT US）。路特斯汽车的母公司英国路特斯与路\n特斯科技同属路特斯集团。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技与吉利汽车的关系是什么？",
+      "generated_answer": "Lotus Technology 与 Geely Auto 之间的关系非常紧密。Geely Holding（吉利控股集团）在 2017 年收购了 Lotus Technology 51% 的股份，从而成为其主要股东。这一战略伙伴关系为 Lotus Technology 提供了独特的竞争优势，使其能够快速扩大商业化规模，同时保持轻资产运营模式，减少前期资本支出。Lotus Technology 与 Geely Holding 签署了多项协议，包括技术许可、制造合作和供应框架等，这些协议有助于控制供应链风险并加速产品开发。\n\n此外，Lotus Technology 与 Geely Holding 在供应链和制造方面有深入的合作。例如，Lotus Technology 委托 Geely Holding 进行车辆生产，并授权其使用 Lotus Technology 的技术进行生产。Lotus Technology 负责车型的设计和开发、供应商的指定、产品公告以及确保产品符合全球标准。\n\n这种合作关系不仅有助于 Lotus Technology 快速将车辆推向市场，还使其能够利用 Geely Holding 的制造能力、采购和供应链的议价能力、资本投资和运营支持。然而，这种紧密的合作关系也带来了一些风险，如潜在的纠纷和对 Geely Holding 车辆质量的感知可能影响 Lotus Technology 的品牌建设。\n\n以上信息基于 2024-09-19 之前的知识。",
+      "reference_answer": "1. 吉利汽车（Geely Auto）和路特斯科技（Lotus Technology）属于同一实际控制人。吉利汽车（Geely Auto）约75%的股份由李书福\n最终实际控制。而路特斯科技的单一最大股东是Lotus Advanced Technology Limited Partnership，持有路特斯科技27.6%，\n也由李书福实际控制。2. 此外， Lotus Technology 与 Geely Holding 签署了多项协议，包括技术许可、制造 合作和供应框架等，以确保\n供应链相关⻛险得到有效控制，并加速产品开发。这些合作使 Lotus Technology 能够利⽤Geely Holding 的制造能⼒、采购和供应链的议价能⼒\n、资本投资和运营⽀ 持，从⽽加快其⻋辆的市场投放速度。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技的股东结构构成？",
+      "generated_answer": "Lotus Technology的股东结构如下：\n\n- **Daniel Donghui Li**：持有14,398,660股普通股，占2.1%的受益所有权或投票权。\n- **Qingfeng Feng**：持有57,061,196股普通股，占8.4%的受益所有权或投票权。\n- **其他董事和高管**：包括Alexious Kuen Long Lee、Ooi Teik Huat、Ning Yu、Ada Yunfeng Yan和Anish Melwani，具体持股数量未披露，但所有董事和高管作为一个整体持有72,819,517股普通股，占10.8%的投票权。\n- **Lotus Advanced Technology Limited Partnership**：持有186,648,945股普通股，占27.6%的受益所有权。\n- **Etika**：持有156,236,329股普通股，占23.1%的受益所有权。\n- **Lotus Technology International Investment Limited**：持有108,740,886股普通股，占16.1%的投票权。\n- **Meritz**：持有50,000,000股普通股，占7.4%的受益所有权。\n- **Lotus Group International Limited**：持有47,995,443股普通股，占7.1%的受益所有权。\n- **Hubei Changjiang Jingkai Automobile Industry Investment Fund Partnership**：持有44,997,886股普通股，占6.6%的受益所有权。\n- **LCAA普通股股东**：包括赞助商，持有8,427,821股普通股，占1.2%的总股份。\n- **合并融资投资者**：持有38,283,370股普通股，占5.7%的总股份。\n- **可交换票据持有人**：持有36,597,038股普通股，占5.4%的总股份。\n- **LTC普通股股东**：持有542,850,129股普通股，占80.2%的总股份。\n- **Momenta可转换票据**：持有577,456股普通股，占0.1%的总股份。\n\n以上信息基于2024年9月19日之前的资料。",
+      "reference_answer": "董事和高管：Daniel Donghui Li, Qingfeng Feng, Alexious Kuen Long Lee, Ooi Teik Huat, N\ning Yu, Ada YunFeng Yan, Anish Melwani。5% 以上股东有Lotus Advanced Technology Limited\n Partnership，Etika，Lotus Technology International Investment Limited，Meritz，Lotu\ns Group International Limited，Hubei Changjiang Jingkai Automobile Industry Inves\ntment Fund (Limited Partnership)。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技全球的门店数量是多少？生活用车已经进入多少国家、地区？",
+      "generated_answer": "截至2024年6月30日，Lotus Technology 在全球的分销网络中共有207家门店。这些门店覆盖了多个国家和地区，包括东南亚、中东、新西兰、印度、埃及、澳大利亚、日本和韩国。此外，Emeya GT 轿车已经开始在欧洲交付，并在中东、东北亚和东南亚接受预订。以上信息基于2024年11月21日之前的知识。",
+      "reference_answer": "截止2024年6月30日，路特斯的全球分销网络拥有 207 家门店。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技是否受到欧洲、美国对中国的关税影响？具体适用税率是多少？",
+      "generated_answer": "Lotus Technology 受到了欧洲和美国对中国商品征收的关税的影响：\n\n- **欧洲**：2023年10月，欧盟委员会正式启动了对来自中国的乘用车用电池电动汽车（BEVs）的反补贴调查。2024年7月，欧盟委员会对从中国进口的BEVs征收了临时反补贴税。这些关税可能导致 Lotus Technology 在欧洲市场的销售价格上升，影响其销售量和市场竞争力。\n\n- **美国**：2024年5月，美国总统拜登指示美国贸易代表办公室增加对来自中国的商品的关税，包括电动汽车（EVs），美国对从中国进口的EVs的关税从25%提高到100%。这同样可能导致 Lotus Technology 在美国市场的销售价格上升，影响其销售和市场扩展计划。\n\n这些关税可能会导致 Lotus Technology 的产品在欧洲和美国的价格上涨，从而减少其销售量，影响公司的运营和未来在这些地区的扩展计划。如果 Lotus Technology 无法成功管理全球运营的复杂性或未能遵守其他司法管辖区的法规，公司的财务表现和经营结果可能会受到影响。\n\n### 税率信息\n\n- **德国**：\n  - **公司税**：2021-2023年为15.825%。\n  - **营业税**：2021年为13.825%，2022-2023年为14.35%。营业税的税率取决于Lotus GmbH开展业务的市镇。\n\n- **英国**：\n  - **所得税**：2021-2022年为19%，2023年1月至3月为19%，4月至12月为25%。\n\n- **荷兰**：\n  - **所得税**：2021-2023年为25.8%。\n\n- **中国**：\n  - **企业所得税**：25%，除非有特别规定。对于在中国境外设立但实际管理机构位于中国的公司，被视为中国居民企业，其全球收入适用25%的企业所得税率。\n  - **股息税**：对于非中国居民企业投资者，如果这些投资者在中国没有设立机构或场所，或者虽有设立机构或场所但所得与其没有实际联系，从中国来源取得的股息适用10%的税率。\n\n以上信息基于2024年9月19日之前的知识。",
+      "reference_answer": "Lotus Technology 面临来自欧洲和美国对中国电动汽车的关税影响。具体来说，2023年10月，欧盟委员会正式启动了对从中国进口的电池电动乘用车的反补\n贴调查。2024年7月，欧盟委员会对从中国进口的电动汽车实施了临时反补贴税。另外，在2024年5月，美国总统拜登指示美国贸易代表办公室增加对中国商品的关税，包括\n电动汽车，使得从中国进口到美国的电动汽车关税提高到了100%。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技在售产品有哪些？价格是多少？",
+      "generated_answer": "Lotus Technology 目前提供以下产品：\n\n1. **Eletre**：这是一款豪华生活方式E级SUV，由Lotus Technology的800伏EPA平台提供动力。Eletre有三种版本：Eletre、Eletre S和Eletre R。Eletre R的最大马力为905 hp，0到100 km/h加速时间为2.95秒，112 kWh电池组的最大WLTP续航里程为490公里，10%到80%的充电时间不到20分钟。\n\n2. **Emeya**：这是Lotus Technology的第二款生活方式生产车型，于2023年9月推出，2024年3月开始交付。\n\n3. **Evija**：这是一款由Lotus UK开发的BEV跑车，属于Lotus Technology的全球销售和分销网络。价格超过220万美元。\n\n4. **Emira**：这是一款由Lotus UK开发的ICE跑车，也属于Lotus Technology的全球销售和分销网络。价格超过85,000美元。\n\n5. **汽车零部件**：Lotus Technology还销售汽车零部件。\n\n6. **周边产品**：Lotus Technology提供各种周边产品。\n\n这些信息基于2024年10月16日之前的知识。目前在售的四款车型价格如下：\n\n- 纯电动超级跑车 EVIJA，价格超过220万美元。\n- 纯电动智能SUV ELETRE，价格超过10万美元，属于E级。\n- 纯电动智能GT轿车EMEYA，价格超过10万美元，属于E级。\n- 燃油动力跑车EMIRA，价格超过85,000美元。\n\n以上价格均不含当地税费和上路费用。",
+      "reference_answer": "公司当前在售四款车型，分别为纯电超跑 EVIJA（定价 220 万美元以上），纯电智能 hyper SUV ELETRE（定价 10 万美元以上，E 级车），纯\n电智能 GT Sedan EMEYA （定价 10 万美元以上，E 级车），以及燃油跑车 EMIRA （定价 8.5 万美元以上）。公司计划 2025、2026\n 年分别推出一款新车型。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技截止上半年的全球交付数量是多少？",
+      "generated_answer": "截至2024年上半年，Lotus Technology的全球交付量为4,873辆，同比增长239%。全球交付量在四大市场（欧洲、中国、北美和世界其他地区）之间保持平衡，每个市场贡献了20-30%的交付量。\n\n以上信息基于2024年11月21日前的知识。",
+      "reference_answer": "Lotus Technology 在2024年上半年的全球交付量为4,873辆，同比增长了239%。这使得它成为传统豪华汽车品牌中增长最快的品牌之一。这些交付量\n在全球四大市场（欧洲、中国、北美和世界其他地区）之间分布均衡，每个市场贡献了约20-30%的交付量。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技的商品销售毛利率是多少？",
+      "generated_answer": "Lotus Technology的毛利润率为13%，这是2024年上半年的数据，相比2023年同期的5%有显著提升。这一提升主要得益于车辆成本的降低和平均售价的提高，以及智能驾驶解决方案、佣金服务费和其他汽车设计和开发服务收入的增加，这些服务的利润率较高。\n\n以上信息基于2024年11月21日之前的知识。",
+      "reference_answer": "在2024年的前九个月，Lotus Technology的销售商品的毛利率下降至7%。Lotus Technology 在2024年上半年的毛利率为13%，相比\n2023年同期的5%有了显著增长。这一增长主要得益于每辆车的成本降低和平均售价的提高，以及智能驾驶解决方案和其他汽车设计与开发服务收入的增加。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技最新的销售指引？",
+      "generated_answer": "Lotus Technology 的最新销售指导目标是2024年交付12,000辆汽车，年增长率超过70%。公司通过Win26计划，目标是在2026年实现正现金流和盈利。这一指导目标是基于对全球宏观经济环境的审慎评估以及关税的不确定性进行调整的。Lotus Technology将通过调整产品计划，推出高性能特别版和限量版车型，专注于超豪华客户，以应对关税带来的影响。此外，公司将继续提升品牌和服务质量，增强韧性，实现可持续增长。\n\n以上信息基于2024年11月12日之前的知识。",
+      "reference_answer": "Lotus Technology 的最新销售指导目标是年交付量达到 12,000 辆，同比增长超过 70%。通过 Win26 计划，Lotus Technolo\ngy 希望在 2026 年实现正现金流和盈利。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技是否盈利？",
+      "generated_answer": "Lotus Technology目前尚未实现盈利。根据最新数据，截至2024年6月30日，公司在过去六个月内净亏损4.603亿美元，2023年、2022年和2021年的净亏损分别为7.503亿美元、7.246亿美元和1.105亿美元。此外，公司在2024年6月30日的累计亏损为20亿美元，2023年、2022年和2021年的累计亏损分别为16亿美元、8.468亿美元和1.228亿美元。这些数据表明，Lotus Technology在财务上仍然面临较大挑战，尚未实现盈利。此信息基于2024年9月19日前的知识。",
+      "reference_answer": "Lotus Technology 自成立以来尚未实现盈利。公司在2024年6月30日结束的六个月内净亏损为4.603亿美元，而在2023年、2022年和2021\n年的净亏损分别为7.503亿美元、7.246亿美元和1.105亿美元。此外，截止2024年6月30日，公司的累计赤字为20亿美元。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技的用户画像？",
+      "generated_answer": "Lotus Technology 的用户群体包括热爱汽车文化的车迷，他们注重驾驶乐趣。在实施 Vision 80 战略的过程中，随着产品线的扩展和升级，目标客户群体进一步扩大，现在还包括以下几类人群：\n\n- 年轻一代：他们同样重视驾驶乐趣。\n- 新时代的女性：对驾驶体验有高要求。\n- 叛逆者：追求独特和个性化的驾驶体验。\n- 科技爱好者：对新技术和智能化功能有浓厚兴趣。\n- 注重社会责任的豪华消费者：他们不仅追求高品质的驾驶体验，还关注企业的社会责任。\n\n这些用户群体共同构成了 Lotus Technology 的核心用户基础，反映了品牌在传承经典的同时，不断吸引新世代消费者的策略。\n\n以上信息基于 2024-11-21 之前的资料。",
+      "reference_answer": "路特斯在过去75年积累了一批热爱汽车文化，注重驾驶乐趣的车主和粉丝，在路特斯实行Vision 80的战略路径中，目标客户群体在扩充、升级的产品线下进一步增加，现\n在，重视驾趣的年轻一代，新女性，特立独行者，科技极客，以及注重社会责任的奢侈品消费者都是我们的客户及潜在客户。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技产品的交付周期是多少？",
+      "generated_answer": "Lotus Technology 的产品交付周期为3-6个月，具体时间取决于不同市场的海关清关和运输条件。在中国大陆市场，由于运输优势，交付时间较短。\n\n以上信息基于2024年11月21日之前的资料。",
+      "reference_answer": "路特斯科技目前通过全球200家门店向市场提供4款产品，2款跑车由英国海瑟尔工厂生产和交付，交付周期在3-6个月，随不同市场清关和运输条件浮动。2款电车由武汉工厂生产，除中国内地市场外，交付周期也在3-6个月，中国内地凭借运输优势交付时间更短。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技的员工数量？",
+      "generated_answer": "截至2023年12月31日，Lotus Technology共有3,180名全职员工。截至2024年6月30日，Lotus Technology的全职员工总数为2,989人。\n\n以上信息基于2024年9月19日之前的知识。",
+      "reference_answer": "截止2024年6月30日，一共有2989人。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技的研发投入？研发人员数量？",
+      "generated_answer": "Lotus Technology 非常重视研发，其研发团队由 1,631 名专业人士组成，占公司总员工的 54.6%。这些研发人员在汽车工程、软件和人工智能等领域拥有丰富的知识和多元化的经验，确保了公司在技术创新和数字化方面的能力。公司的主要研发方向包括架构和底盘平台、智能驾驶、电动移动平台、座舱和连接性、以及工程设计。此外，Lotus Technology 还计划通过持续的研发投资，不断开发和增强其专有的尖端技术，如 800 伏 EPA 架构、硬件、算法和软件系统，以提升其车辆的竞争力。这些投资不仅用于提升自身产品的竞争力，还计划通过许可其知识产权和提供 ADAS 软件订阅服务来实现技术的商业化。以上信息基于 2024年11月21日之前的知识。",
+      "reference_answer": "根据财务数据显示，2024年第三季度，Lotus Technology的研发费用为52,671,000美元。2024年前三季度的研发费用为227,525,000\n美元。截止2024年6月30日，Lotus Technology 拥有1,631名研发员工。",
+      "passing": false,
+      "feedback": "NO"
+    },
+    {
+      "question": "路特斯科技的主要竞争优势是什么？",
+      "generated_answer": "Lotus Technology 的主要竞争优势包括：\n\n1. **早期进入豪华电动汽车市场**：Lotus Technology 作为豪华电动汽车市场的早期进入者，能够抓住全球豪华电动汽车市场的快速增长机会，满足未被满足的需求，提供多款电动汽车模型。\n\n2. **标志性品牌和赛车传统**：Lotus 拥有超过 70 年的跑车设计和工程经验，其品牌核心原则包括空气动力学和轻量化设计。Lotus 在 Formula 1 赛事中取得了显著成就，包括 6 次 FIA Formula 1 车手世界冠军、7 次 FIA Formula 1 车队世界冠军和 81 次 FIA Formula 1 大奖赛胜利。此外，Lotus 还获得了 2019 年 Luxury Briefing Awards 的“年度豪华品牌”和 2020 年 MUSE Global Design Award。\n\n3. **专有下一代技术**：Lotus Group 在过去七十年中一直是汽车行业的技术先锋。其专有的 800 伏 EPA 架构具备超充能力、高能效和高速数据传输，具有高度适应性，可以适应不同电池大小、电机和组件布局。此外，Lotus 拥有领先的高级驾驶辅助系统（ADAS）技术，具备 Level 4 级自动驾驶硬件能力，包括世界上首个可部署的 LiDAR 系统、360° 全方位感知覆盖和自研的认知、决策、设计和控制算法。Lotus Hyper OS 操作系统利用技术为乘客创建实时 3D 内容。\n\n4. **轻资产商业模式**：Lotus Technology 采用轻资产商业模式，依托 Geely Holding 生态系统，减少了前期资本支出，专注于研发和技术。\n\n5. **可持续性**：Lotus Technology 致力于可持续发展，目标是实现全电动产品组合。\n\n6. **豪华零售体验和全渠道销售模式**：Lotus Technology 提供豪华的零售体验和全渠道销售模式，以提升客户体验。\n\n7. **全球、经验丰富且具有远见的领导团队**：Lotus Technology 拥有一支全球化的、经验丰富的、具有远见的领导团队。\n\n这些竞争优势使 Lotus Technology 在豪华电动汽车市场中具有显著的竞争地位。以上信息基于 2024-09-19 之前的知识。",
+      "reference_answer": "Lotus Technology 的主要竞争优势包括：1. 早期进入豪华电动汽车市场：作为豪华电动汽车市场的早期进入者，Lotus Technology 已经在\n其 E 级别电动汽车领域领先于竞争对手多年。这使得公司在快速增长的全球豪华电动汽车市场中占据了有利位置，并能够满足未被充分满足的需求。2. 标志性品牌与赛车传统\n：Lotus 品牌拥有超过 70 年的跑车设计和工程经验，其核心理念包括空气动力学和轻量化设计。自成立以来，Team Lotus 赢得了多项 Formula 1\n 锦标赛冠军，并在多个国际奖项中获得认可。3. 专有下一代技术：Lotus Group 在过去七十年中一直是最具技术创新的汽车公司之一。其专有的 800 伏 E\nPA 架构具备超级充电能力、高能效和高速数据传输，且具有高度适应性。此外，该公司还拥有领先的高级驾驶辅助系统（ADAS）技术，包括 Level 4 预备硬件能力\n和世界上首个可部署的 LiDAR 系统。4. 轻资产商业模式：Lotus Group 采用了一种轻资产商业模式，充分利用 Geely Holding 的广泛资源\n，如制造、供应链、研发、物流基础设施和人力资源。这使得 Lotus 能够在有限的前期资本投入下高效执行其业务计划，并在全球范围内快速扩展运营。5. 可持续发展承\n诺：Lotus Technology 致力于实现碳中和目标，预计到 2038 年达成这一目标。公司还通过减少废物、采用可再生能源和可回收材料等措施，不断加强其在\n可持续发展方面的领导地位。这些竞争优势使 Lotus Technology 在豪华电动汽车市场中具备显著的竞争实力。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技的远期目标？",
+      "generated_answer": "Lotus Technology 的长期目标包括以下几个方面：\n\n1. **品牌提升和转型**：Lotus Technology 旨在通过继续提供智能和高性能的车辆来进一步提升品牌，特别是吸引高净值个人和科技 savvy 的年轻一代，这些群体非常重视品牌的 DNA。\n\n2. **扩大地理存在**：Lotus Technology 计划在所有地区深化渗透，特别是在中国、欧洲和美国等关键市场，这些市场是全球 BEV 市场增长的驱动力。通过直接面向消费者的销售和分销策略，建立和加强与客户的直接关系，提供豪华的购买体验和卓越的客户服务，进一步深化其在全球市场的渗透。\n\n3. **开发下一代电动汽车技术并实现 R&D 价值**：Lotus Technology 计划持续开发和增强其专有的尖端技术，包括 800 伏 EPA 架构、硬件、算法和软件系统，以提高其车辆的竞争力。所有技术都以“为驾驶者”为原则，同时继承其独特的设计语言和理念。此外，Lotus Technology 还计划通过许可其知识产权给其他豪华汽车品牌和提供 ADAS 软件订阅给客户来实现 R&D 能力的货币化。\n\n4. **继续推出新车型并升级现有车型**：Lotus Technology 计划在未来几年推出一系列新车型，以扩大其客户基础，特别是高净值个人和科技 savvy 的年轻一代，并扩展其产品范围。同时，计划对其现有车型进行升级，配备创新技术和设计。\n\n5. **专注于可持续性和引领电气化**：作为豪华汽车细分市场电气化转型的领导者，Lotus Technology 已经在其 E 级别 BEV 车型上领先于竞争对手，并计划继续推出其他 BEV 车型。作为其可持续性承诺的一部分，Lotus Technology 旨在到 2038 年实现碳中和。此外，Lotus Technology 还推出了“Win26”计划，目标是在 2026 年实现 EBITDA 为正，通过进一步优化内部流程和结构、实施总体成本措施和调整产品计划以适应全球多样化市场。\n\n这些目标体现了 Lotus Technology 在豪华 BEV 市场的早期优势、品牌传承和技术创新方面的竞争力。以上信息基于 2024-09-19 之前的可用知识。",
+      "reference_answer": "Lotus Technology 的长期目标包括以下几个方面：1. 品牌转型和市场拓展：Lotus Technology 计划通过投资品牌价值，充分利用其赛车传\n统和领导力，进一步提升品牌形象。公司将继续推出全电动高性能车辆，以满足客户期望并扩大客户基础，特别是高净值个人和技术娴熟的年轻一代。2. 地理扩张：Lotus \nTechnology 打算在所有地区深化市场渗透。公司在全球范围内采用直接面向消费者的销售和分销策略，特别是在中国、欧洲和美国等关键区域建立和发展与客户的直接关\n系。公司计划到2025年在全球开设超过300家门店。3. 技术研发和商业化：Lotus Technology 计划持续开发和增强专有技术，包括800伏EPA架构\n、硬件、算法和软件系统，以提升车辆的竞争力。所有专有技术都秉承“为驾驶者”的原则，并继承了独特的设计语言和理念。此外，公司还计划通过授权知识产权和技术订阅服务来\n实现其研发能力的商业化。4. 新车型发布与现有车型升级：Lotus Technology 计划在未来几年内推出一系列高性能电动车型，以扩大产品线并增强市场地位。\n公司计划在2025年和2026年分别推出D级SUV和一款生活方式电动跑车，并将对现有车型进行创新技术和设计的升级。5. 可持续发展与电气化领导：Lotus Te\nchnology 致力于成为传统豪华汽车品牌中第一个实现100%全电动汽车产品组合的品牌，计划到2027年完成这一目标。公司还承诺在2038年前实现碳中和，并通\n过减少废物、采用可再生能源和可回收材料来领导可持续发展。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技2024年前9个月的业绩表现如何？",
+      "generated_answer": "在2024年的前九个月，Lotus Technology表现出色，具体如下：\n\n- **交付量**：Lotus Technology 在前九个月共交付了7,617辆汽车，同比增长136%。第三季度交付了2,744辆，同比增长54%。\n- **收入**：前九个月的总收入达到6.53亿美元，同比增长105%。第三季度的收入为2.55亿美元，同比增长36%。\n- **智能驾驶业务**：智能驾驶业务的外部客户收入达到1100万美元，同比增长450%。\n- **毛利润和毛利率**：前九个月的毛利润为5900万美元，同比增长75%。毛利率为9%，较去年同期的11%有所下降。第三季度的毛利率为3%，较去年同期的15%大幅下降。\n- **运营和净亏损**：前九个月的运营亏损为5.98亿美元，同比增长18%。净亏损为6.67亿美元，同比增长27%。调整后的净亏损为6.33亿美元，同比增长20%。调整后的EBITDA为亏损5.63亿美元，同比增长16%。\n\n这些数据表明，尽管Lotus Technology在收入和交付量方面取得了显著增长，但运营和净亏损也有所增加。毛利率的下降主要是由于库存管理策略的影响，但高利润率的智能驾驶业务收入增长部分抵消了这一影响。\n\n以上信息基于2024年11月21日前的知识。",
+      "reference_answer": "Lotus Technology 在2024年前九个月的财务表现如下：营收从2023年的3.18亿美元增长到2024年的6.53亿美元，增幅为105%。成本从2\n023年的2.84亿美元增加到2024年的5.94亿美元，增幅为109%。毛利润从2023年的3400万美元增长到2024年的5900万美元，增幅为75%。毛利\n率从2023年的11%下降至2024年的9%，主要是由于库存管理的影响。营业亏损从2023年的5.08亿美元增加到2024年的5.98亿美元，增幅为18%。净亏\n损从2023年的5.27亿美元增加到2024年的6.67亿美元，增幅为27%。调整后的净亏损（A）从2023年的5.27亿美元增加到2024年的6.33亿美元，\n增幅为20%。调整后的EBITDA（A）从2023年的4.86亿美元的亏损扩大至2024年的5.63亿美元的亏损，增幅为16%。尽管营收显著增长，但毛利率下降和\n营业、净亏损增加反映了公司在库存管理和宏观经济不确定性方面的挑战。此外，高利润率的智能驾驶业务已获得1.3亿美元的合同总价值，有助于未来的增长。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技截止3季度的全球交付数量是多少？增长如何？",
+      "generated_answer": "截至2024年第三季度，Lotus Technology的全球交付量为7,617辆，比2023年同期的3,221辆增加了136%。其中，第三季度交付了2,744辆，比2023年第三季度的1,782辆增加了54%。这些增长主要得益于欧洲市场的强劲表现，该市场在前九个月的交付量同比增长了372%。此外，其他地区的交付量也实现了110%的同比增长。\n\n此信息基于2024年11月21日之前的知识。",
+      "reference_answer": "截止2024年第三季度，Lotus Technology 的全球交付量达到7,617辆，同比增长136%。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技前三季度生活用车和跑车的交付量分别是多少？",
+      "generated_answer": "在2024年的前九个月，Lotus Technology交付了7,617辆汽车。其中，生活方式车辆（可以理解为乘用车）占52%，即3,961辆；跑车占48%，即3,656辆。\n\n以上信息基于2024年11月21日前的知识。",
+      "reference_answer": "2024年前三个季度的总交付量为7,617辆，其中生活方式SUV和轿车占3,983辆，跑车占3,634辆。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技第三季度的交付量是多少？",
+      "generated_answer": "Lotus Technology在2024年第三季度的交付量为2,744辆，相比2023年同期的1,782辆，增长了54%。此信息基于2024年11月21日前的知识。",
+      "reference_answer": "Lotus Technology在2024年第三季度（3Q2024）的交付量为2,744辆。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技的毛利率是多少？经营性利润/亏损是多少？",
+      "generated_answer": "Lotus Technology 在2024年前三季度的毛利率为9%，相比2023年同期下降了2个百分点。这主要是由于公司主动管理库存以应对贸易保护主义、通货膨胀和宏观经济不确定性的影响。然而，高毛利率的智能驾驶业务对毛利率有所支撑，该业务的收入增长了450%，达到1100万美元，占总收入的2%。此外，公司在2024年上半年的经营亏损为437,706,000美元，反映了该期间的经营活动中产生的亏损。以上信息基于2024年11月21日前的知识。",
+      "reference_answer": "Lotus Technology 在2024年上半年的毛利率为7%，相比2023年同期的5%有了显著增长。2024 年前 9 个月的营业亏损为 5.98 亿美元",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技的全年销售指引是多少？目前看是否能完成？",
+      "generated_answer": "Lotus Technology 的全年销售指引为 12,000 辆，预计同比增长超过 70%。这一指引是基于公司对全球宏观经济环境和关税不确定性的审慎评估后调整的。通过 Win26 计划，Lotus Technology 旨在到 2026 年实现正现金流和盈利。\n\n截至 2024 年 9 月 19 日，Lotus Technology 正在评估这些新标准对其合并财务报表的影响。管理层认为这些预测和假设是基于合理的基础，反映了当前最佳的估计和判断。然而，这些信息不是历史事实，不应被视为指导，也不应被视为未来结果的必然指标。因此，目前没有明确的信息表明 Lotus Technology 是否完全符合这些指导标准。",
+      "reference_answer": "Lotus Technology 的全年交付目标是12,000辆，同比增长超过70%。根据目前的业绩表现来看，这一目标实现的可能性较大。截止2024年第三季度末\n，公司已经交付了超过7,600辆车，与去年同期相比增长了136%。按照这个趋势，Lotus Technology 有望在第四季度继续保持强劲的增长势头，从而实现\n全年交付目标。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技的最新员工数量？研发人员数量？",
+      "generated_answer": "截至2024年6月30日，Lotus Technology的员工总数为2,989人，其中1,631名为研发人员，占总员工数的54.6%。这些研发人员具备丰富的汽车工程、软件和人工智能知识，以及来自全球领先汽车制造商的多样化工作经验，确保了公司在智能化和数字化方面的强大技术开发能力。此信息基于2024年11月21日之前的知识。",
+      "reference_answer": "截止2024年6月30日，Lotus Technology 全球共有2,989名全职员工，其中约54.6%的员工属于研发部门。这表明研发部门有大约1,633名员\n工。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技的欧洲市场、中国市场、北美市场分别的销售贡献如何？",
+      "generated_answer": "在2024年的前十个月中，Lotus Technology的销售情况如下：\n\n- 欧洲市场：欧洲市场是Lotus Technology的主要市场之一，贡献了约35%的总交付量。\n- 中国市场：中国市场贡献了约25%的总交付量。\n- 北美市场：虽然没有具体提及北美市场的具体百分比，但根据之前的报告，北美市场是Lotus Technology的四大市场之一，每个市场贡献了20-35%的总交付量。\n\n这些数据基于2024年11月12日之前的知识。",
+      "reference_answer": "2024年1月至9月，欧洲市场销售了2,683辆汽车，占总销售量的35%。中国市场销售了1,880辆汽车，占总销售量的25%。北美市场销售了1,665辆汽车，占\n总销售量的22%。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技的欧洲、中国、美国分别的门店数量占比如何？",
+      "generated_answer": "截至2024年6月30日，Lotus Technology在全球范围内共有207家门店。具体分布如下：\n\n- 欧洲：34%的门店位于欧洲，即大约70家门店。\n- 中国：25%的门店位于中国，即大约52家门店。\n- 美国：24%的门店位于北美，即大约50家门店。\n\n这些数据基于2024年6月30日之前的知识。",
+      "reference_answer": "截止2024年9月，路特斯科技在欧洲的门店数量占34%，中国门店数量占比25%，北美门店数量占比24%。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯生活用车和跑车的销售占比分别怎样？",
+      "generated_answer": "截至2024年9月，Lotus Technology的销售数据如下：\n\n- \"Lifestyle SUV and Sedan\"（生活方式SUV和轿车）的销量为3,983辆，占总销量的52.3%。\n- \"Sportscars\"（跑车）的销量为3,634辆，占总销量的47.7%。\n\n因此，Lotus Technology的轿车和跑车的销售比例为52.3%：47.7%。\n\n以上信息基于2024年11月21日之前的知识。",
+      "reference_answer": "根据2024年11月21日的数据，2024年前九个月的销售分布为：生活方式SUV和轿车（Lifestyle SUV and Sedan）销售了3,983辆，占总\n销量的52%；跑车（Sportscars）销售了3,634辆，占总销量的48%。总销量为7,617辆，与2023年同期相比增长了136%。",
+      "passing": false,
+      "feedback": "NO"
+    },
+    {
+      "question": "路特斯科技在2024年有哪些关键性成就？",
+      "generated_answer": "Lotus Technology在2024年的关键成就包括：\n\n1. **车辆交付量**：截至2024年10月，Lotus Technology交付了8,631辆汽车，同比增长134%。欧洲和中国是主要市场，分别贡献了约35%和25%的总交付量。\n\n2. **市场扩展**：在2024年第三季度，Emeya（GT，Sedan）交付到欧洲，Eletre（SUV）则进入了包括GCC、日本和韩国的市场。9月，Lotus Technology推出了Eletre Carbon，这是一款专为北美市场设计的高性能车型，起售价为229,900美元，预计在2025年上半年开始交付。\n\n3. **零售网络扩展**：截至2024年6月30日，Lotus Technology在全球拥有207家门店，并计划继续扩展其零售网络。\n\n4. **智能驾驶技术**：10月，Lotus Technology开始在关键城市进行城市NOA（Navigate on Autopilot）的公开测试，并在欧洲推出了某些智能驾驶功能的OTA更新。Lotus Robotics为Lotus品牌的智能车辆及其他全球领先的汽车集团如Lynk&Co、Farizon Auto和一家顶级日本Tier-one供应商提供智能驾驶解决方案。\n\n5. **可持续发展**：Lotus Technology在2024年取得了显著的ESG（环境、社会和治理）成就。公司在2024年Reuters Sustainability Awards中获得高度评价，成为唯一获得Business Transformation类别高度评价的汽车公司。此外，Lotus Technology还赢得了2024 EUCCC可持续商业奖和Green Apple奖，展示了其在环保实践方面的卓越表现。\n\n6. **全球认可**：Lotus Technology在2024年上海国际碳中和博览会上获得了全球零碳城市先锋奖，表彰其在可持续发展和负责任商业实践方面的创新和卓越贡献。公司还被提名参加2024年Reuters Sustainability Awards的业务和运营转型类别，展示了其在可持续发展方面的全面方法。\n\n这些成就是基于2024年11月21日之前的知识。",
+      "reference_answer": "Lotus Tech 在 2024 年取得了多项重要成就：车辆交付量：截止 2024 年前 10 个月，Lotus 交付了 8,631 辆汽车，同比增长显著。全\n球市场分布：欧洲和中国是 Lotus 的主要市场，分别贡献了约 35% 和 25% 的总交付量。其他地区如北美、日本、韩国等也取得了重要进展。新车型推出：在第三\n季度，Emeya (GT, Sedan) 开始在欧洲交付，Eletre (SUV) 则进入了包括 GCC、日本和韩国在内的市场。Eletre Carbon 高性\n能版专为北美市场设计，起价 229,900 美元，预计于 2025 年上半年开始交付。技术创新：Lotus 推出了 Hyper Hybrid EV 技术，该技术\n具备高性能、高效率和超过 1,100 公里的续航里程。此外，还启动了城市 NOA（Navigate on Autopilot）服务的公开测试，并在欧洲推出了高速\n公路 OTA 更新。财务表现：截止 2024 年前九个月，总营收达到 6.53 亿美元，同比增长超过一倍。智能驾驶业务收入也大幅增长，达到 1,100 万美元，\n同比增长 450%。可持续发展奖项：Lotus 被授予 Reuters Sustainability Awards 2024 的“高度赞誉”荣誉，成为唯一获此殊\n荣的汽车企业。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技的平均MSRP在什么水平？",
+      "generated_answer": "Lotus Technology的平均售价（Average Selling Price, ASP）保持在100,000美元以上。这一价格在2024年上半年实现了远超行业和豪华车细分市场的增长。以上信息基于2024年11月21日之前的知识。",
+      "reference_answer": "Lotus Technology 的车辆平均售价 (MSRP) 超过 100,000 美元。这一价格区间涵盖了其多款车型，如 Eletre 和 Emira。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技在2024年进入了哪些新市场？",
+      "generated_answer": "Lotus Technology 在 2024 年进入了以下新市场：海湾合作委员会地区、新西兰、印度、埃及、澳大利亚、日本和韩国。这些市场的交付已经开始，包括 Eletre 和 Emeya 车型。信息基于 2024 年 11 月 21 日前的知识。",
+      "reference_answer": "Lotus Technology 在 2024 年进入了多个新市场。具体来说，Eletre 被交付到了海湾合作委员会地区、新西兰、印度和埃及，随后还开始接受澳大\n利亚、日本和韩国的生产订单。此外，Emeya 在欧洲开始交付，并在海湾合作委员会地区、日本、韩国和东南亚接受预订。这些市场的扩展进一步推动了 Lotus Tec\nhnology 的全球布局。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技有哪些ESG成就？",
+      "generated_answer": "Lotus Technology 在 ESG 方面取得了以下成就：\n\n1. **环境正面影响 (Nature Positive)**：Lotus Technology 通过设计和制造可持续的产品，致力于减少对环境的影响。例如，Geely Holding 的制造工厂采用了雨水回收系统，将屋顶雨水回收利用，用于绿化、冲洗和景观维护，从而补充了 Lotus Lake 的水量。\n\n2. **气候中立 (Climate Neutrality)**：Lotus Technology 设定了实现碳中和的目标，通过减少碳排放、消除废物、提高资源使用效率等措施，推动可持续发展。公司还计划在产品设计和制造过程中最大限度地减少环境影响。\n\n3. **可持续供应链 (Sustainable Supply Chain)**：Lotus Technology 在供应链管理中采取了可持续的做法，确保供应链的透明度和责任管理。公司在 2024 上海气候周上展示了可持续供应商管理案例，该案例将纳入 Climate Tech in Focus 报告，计划在 COP29 上发布。\n\n4. **包容和平等 (Inclusion and Equality)**：Lotus Technology 致力于促进包容和平等，通过教育推广计划和社区支持项目，激发下一代在科学、技术、工程、艺术和数学领域的兴趣和抱负。\n\n5. **社区承诺 (Community Commitment)**：公司积极参与社区活动，提供支持和稳定性，特别是在核心业务之外的社区。例如，Lotus Technology 通过教育推广计划与社区合作，提供支持和稳定性。\n\n6. **透明治理 (Transparent Governance)**：Lotus Technology 加入了联合国全球契约 (UNGC)，并制定了与联合国可持续发展目标 (SDGs) 相符的目标，确保透明、负责任和道德的业务管理。公司于 2023 年 10 月 25 日发布了首份年度 ESG 报告，详细记录了其 ESG 战略和 2022 年的 ESG 成就。\n\n此外，Lotus Technology 在 2024 年获得了多项国际认可，包括在 2024 上海国际碳中和博览会上获得全球零碳城市先锋奖，以及在 Reuters Sustainability Awards 2024 中被提名为业务和运营转型类别的决赛选手。这些成就进一步证明了 Lotus Technology 在可持续发展和负责任业务实践方面的卓越表现。\n\n以上信息基于 2024-11-21 之前的知识。",
+      "reference_answer": "Lotus Technology 在环境、社会和治理（ESG）方面取得了显著成就。首先，所有未来的主流车型都将完全电动化，标志着公司向全电动车阵容的转型。其次，\n公司在实现碳中和目标上做出了重大努力，包括在制造工厂采用光伏发电系统，2023年该系统已生成超过9,800兆瓦时的电力。此外，Lotus Technology \n还实施了多种节能减排措施，如干式喷漆室设计、废气焚烧、雨水收集与再利用、废水处理等，以减少环境影响。公司还计划在2038年前实现整个价值链的碳中和。另外，Lot\nus Technology 通过教育推广项目和社会支持活动，积极激励下一代参与科学、技术、工程、艺术和数学领域的发展。公司在2023年10月25日发布了首份年度\nESG报告，详细记录了其ESG战略和2022年的成就，并将这些目标与联合国可持续发展目标（SDGs）对齐。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯的智能驾驶有哪些成就？",
+      "generated_answer": "Lotus Technology 在智能驾驶领域取得了显著成就，具体包括以下几个方面：\n\n1. **硬件技术**：Lotus Technology 投入大量资源开发了 L4 级智能驾驶硬件。这些硬件包括可部署的 LiDAR 技术，具备全方位感知覆盖能力，配备七台八百万像素的高清摄像头、六台长/短程毫米波雷达（其中前后为图像雷达）、四台 128 线 LiDAR、12 台超声波雷达、一台车内摄像头和四台环视摄像头。此外，Eletre 和 Emeya 车型配备了双 NVIDIA DRIVE Orin 芯片，计算能力为 500 到 1000 TOPS，能够处理复杂的数据和图像。这些顶级驾驶硬件使 Lotus Technology 的车型能够捕捉大量高质量信息，优化关键智能驾驶算法，保持在智能驾驶技术开发领域的领先地位。\n\n2. **软件能力**：Lotus Technology 的智能驾驶研发团队开发了关键的智能驾驶算法，包括认知、决策、规划和控制。他们还开发了智能驾驶相关的测试和模拟工具，用于测试和训练算法，为基于云的服务奠定基础。先进的智能驾驶软件和算法考虑了各种场景，包括高速公路、城市和停车。Eletre 和 Emeya 车型在交付时配备了 L2 智能驾驶解决方案，如驾驶辅助、停车辅助和主动安全系统。此外，Lotus Technology 正在开发端到端解决方案，涵盖高速公路、城市和停车等场景，并通过 OTA 更新将一些解决方案集成到车型中作为高级功能。\n\n3. **云服务**：Lotus Technology 构建了强大的云基础设施，支持客户使用基于云的服务。这些云服务在数据合规、模型训练、流程优化等方面全面赋能智能驾驶，提升计算能力和数字运营能力。Lotus Technology 将这些硬件、软件和云能力整合，开发了全套先进的智能驾驶技术，使 Lotus 车辆能够感知并智能反应周围环境，从而增强驾驶体验。通过结合强大的算法、高清摄像头、雷达和高精度地图能力，Lotus 车辆能够精确感知周围环境并动态反应。\n\n这些成就使 Lotus Technology 在智能驾驶领域保持领先地位，为用户提供流畅和智能的驾驶体验，即使在极端道路条件下也能表现优异。以上信息基于截至 2024-09-19 的知识。",
+      "reference_answer": "路特斯智能驾驶成就包括：1. 提供L2和L2+级别ADAS/PAS解决方案，覆盖欧洲、亚洲、北美等全球市场；2. 高速公路辅助功能在欧洲升级；3. 建立全球云和\n数据中心覆盖；4. 与吉利生态系统、欧洲顶级企业和日本一级供应商合作；5. 未来2-3年为约10款车型提供智能驾驶方案。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "智能驾驶业务（也就是路特斯机器人）的销售额？",
+      "generated_answer": "Lotus Robotics, 莲花科技的智能驾驶部门，在2024年前九个月的外部客户收入达到了1100万美元，同比增长450%。此外，智能驾驶业务的合同价值达到了1.3亿美元。\n\n以上信息基于2024年11月21日之前的知识。",
+      "reference_answer": "Lotus Robotics 的智能驾驶业务在2024年前九个月从非莲花客户处产生的收入达到了1100万美元。此外，Lotus Robotics 与多家汽车制造\n商签订了合作协议，总合同价值约为1.3亿美元。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "介绍一下路特斯智能驾驶的NOA服务？",
+      "generated_answer": "Lotus Technology 的 NOA（Navigate on Autopilot）服务是一种高级智能驾驶辅助系统，旨在为驾驶员提供更安全、更便捷的驾驶体验。该服务包括以下几项关键功能：\n\n1. **高速公路辅助驾驶（Highway NOA）**：这项功能已经在欧洲推出，能够帮助车辆在高速公路上自动变道、超车和保持车道内行驶。通过OTA（Over-The-Air）更新，驾驶员可以远程接收这些功能的升级，确保车辆始终具备最新的智能驾驶技术。\n\n2. **城市导航辅助驾驶（Urban NOA）**：在2024年10月，Lotus Technology 开始在关键城市进行城市NOA的开放测试。这项功能旨在帮助车辆在城市复杂交通环境中自动导航，包括识别交通信号、避让行人和车辆等，提供更加智能的驾驶体验。\n\n这些NOA服务的推出，标志着Lotus Technology 在智能驾驶技术领域的重大进展，不仅提升了车辆的安全性和驾驶体验，也为未来的软件订阅收入奠定了基础。\n\n以上信息基于2024年11月21日之前的知识。",
+      "reference_answer": "Lotus 的 NOA（Navigate on Autopilot）服务是其智能驾驶技术的重要组成部分。2024年10月，Lotus 开始在主要城市进行城市 N\nOA 服务的公开测试，这是继高速公路 OTA 服务推出后的又一重要进展。此外，某些 OTA 功能，包括高速公路辅助驾驶功能，已经在欧洲市场推出。Lotus 的 \nNOA 服务结合了强大的硬件和先进的软件算法，能够实现全方位感知覆盖，包括七个八百万像素高清摄像头、六个长/短程毫米波雷达（前部和后部为图像雷达）、四个128线\n激光雷达、12个超声波雷达、一个车内摄像头和四个环视摄像头。通过这些传感器的协同工作，Lotus 车辆能够精确感知周围环境并智能地做出反应。此外，Lotus 通\n过其云基础设施支持 NOA 服务，确保数据合规、模型训练、流程优化，并提升计算能力和数字运营能力。这些技术共同为驾驶员提供流畅且智能的驾驶体验，即使在极端道路条\n件下也能保持高性能。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "介绍一下路特斯的Vision80计划和Win26计划",
+      "generated_answer": "Vision80 计划是莲花技术公司的一项战略计划，旨在引导公司在2028年80周年纪念日前的转型。该计划的核心目标包括：\n\n1. **品牌复兴**：在全球范围内重振莲花品牌，提升品牌影响力。\n2. **客户满意度**：提高客户满意度，确保客户体验达到最高标准。\n3. **股东回报**：实现积极的经营现金流和息税折旧摊销前利润（EBITDA），目标是在2026年实现这一目标。\n4. **市场份额**：到2028年，目标是在豪华车市场（售价超过80,000美元的细分市场）中占据4%的市场份额。\n5. **可持续发展**：通过六项关键领域的ESG战略，包括自然积极、气候中立、可持续供应链、包容和平等、社区承诺和透明治理，推动可持续发展。\n6. **技术创新**：推进800V超充电动汽车技术和900V超充混合动力电动汽车技术，提升电动汽车的性能和充电速度。\n\nVision80 计划还包括具体的销售目标，例如从2018年至2022年平均每年交付约1,200辆汽车，到2023年增加到6,970辆，2024年预计达到12,000辆，最终在2026年达到30,000辆。\n\nWin26计划是Lotus Technology旨在2026年实现正向EBITDA（息税折旧及摊销前利润）和正向经营现金流的计划。该计划的主要目标包括：\n\n1. **提高盈利能力**：通过优化内部流程和结构，实施整体成本控制措施，以及调整产品计划以适应全球多元化市场，提升盈利能力。\n2. **毛利率**：目标是到2026年实现超过20%的毛利率。\n3. **收入增长**：通过增加限量版车型和提高高ASP（平均售价）和定制车型的销售比例，提升平均售价。\n4. **高利润业务收入**：通过增加高利润的知识产权（IP）许可和付费软件订阅，提高其他高利润业务的收入。\n5. **成本控制**：通过每年减少材料清单（BOM）成本和降低贸易相关的成本，控制生产成本。\n\n这些措施旨在增强Lotus Technology的市场竞争力和财务表现，最终实现2026年的财务目标。以上信息基于2024年11月21日前的知识。",
+      "reference_answer": "Lotus Technology 的 Vision80 和 Win26 计划是其长期战略的重要组成部分。Vision80 是 Lotus 为实现品牌转型和可持续\n发展而制定的长远计划。该计划的目标是在 2028 年，即公司成立 80 周年之际，将 Lotus 打造成一个全球领先的高性能电动汽车品牌。Vision80 强调\n了公司在电动化、智能化和可持续性方面的努力。例如，Lotus 已经推出了 E-segment 的电池电动车（BEV），并计划在未来几年内推出更多 BEV 车型。\n此外，Lotus 还致力于通过减少废物、采用可再生能源和可回收材料来实现碳中和目标，预计在 2038 年前达成这一目标。Win26 计划则是 Lotus 在短期\n至中期内的具体执行策略。该计划的目标是在 2026 年实现正向的 EBITDA 和正向的运营现金流。为了达到这一目标，Lotus 正在优化内部流程和结构，实施全\n面的成本控制措施，并调整产品计划以适应全球多元化市场的需求。Win26 计划还强调了持续的产品创新和技术升级，例如推出 Hyper Hybrid EV 技术和智\n能驾驶业务的发展。此外，Lotus 通过提高运营效率、减少运营费用，已经连续四个季度实现了成本的优化。这些计划共同推动 Lotus 在竞争激烈的汽车市场中保持领\n先地位，并实现长期可持续发展。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技2024年1-10月的销量是多少？",
+      "generated_answer": "从2024年1月到10月，Lotus Technology的销售数据如下：\n\n- 生活方式SUV和轿车的销售量为3,983辆，相比2023年同期的1,762辆，增长了126%。\n- 跑车的销售量为3,634辆，相比2023年同期的1,459辆，增长了149%。\n- 两个类别的总销售量为7,617辆，相比2023年同期的3,221辆，增长了136%。\n\n此外，截至2024年10月，Lotus Technology共交付了8,631辆汽车，相比2023年同期增长了134%。\n\n以上信息基于2024年11月21日前的知识。",
+      "reference_answer": "从2024年1月到10月，Lotus Technology Inc. 的总交付量为8,631辆。",
+      "passing": false,
+      "feedback": "NO"
+    },
+    {
+      "question": "前10个月欧洲市场和中国市场的销量贡献分别是多少？",
+      "generated_answer": "在2024年的前九个月，欧洲市场的销售贡献为35%，中国市场的销售贡献为25%。根据提供的数据，没有关于第十个月的具体信息，因此无法提供前10个月的精确数据。\n\n以上信息基于2024年9月19日之前的知识。",
+      "reference_answer": "2024年前10月，欧洲和其他地区（Europe & ROW）的销量贡献为30%。中国市场的销量贡献为70%。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "哪些市场已经在销售Eletre？",
+      "generated_answer": "Eletre 已经在以下市场销售：\n\n- 中国\n- 欧洲\n- 东南亚\n- 中东\n- 新西兰\n- 印度\n- 埃及\n- 澳大利亚\n- 日本\n- 韩国\n\n这些信息基于2024年10月16日之前的知识。",
+      "reference_answer": "Eletre 已经在多个市场开始销售，包括东南亚、海湾合作委员会地区（如阿联酋）、新西兰、印度和埃及。此外，Eletre 也在欧洲市场上开始交付，并且已经开始接\n受澳大利亚、日本和韩国市场的生产订单。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯的实控人是谁？",
+      "generated_answer": "路特斯科技的实际控制人是李书福。根据相关信息，李书福通过间接持有超过50%的路特斯科技的总发行和流通股份，拥有超过50%的投票权。此外，路特斯科技的最大单一股东是Lotus Advanced Technology Limited Partnership，持有27.6%的股份，也由李书福实际控制。这些信息表明李书福对路特斯科技具有实际控制权。此信息基于2024年12月26日前的知识。",
+      "reference_answer": "路特斯的实控人是李书福。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯是上市公司吗？",
+      "generated_answer": "Lotus Technology 是一家公开上市的公司。它于2021年8月9日在开曼群岛注册成立，并于2024年2月22日通过与L Catterton Asia Acquisition Corp (LCAA)的合并完成上市，目前在纳斯达克上市，作为一家外国私人发行人。该信息基于2024年9月19日之前的知识。",
+      "reference_answer": "是的。纽约纳斯达克交易所举行了敲钟仪式，正式挂牌交易，股票代码为“LOT”。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "On which exchange is Lotus Technology Inc's stock traded and what is the stock ticker?",
+      "generated_answer": "Lotus Technology Inc's stock is traded on the Nasdaq Stock Market LLC under the trading symbol “LOT” for its American Depositary Shares (ADSs) and “LOTWW” for its Warrants. This information is based on knowledge available before 2024-11-08.",
+      "reference_answer": "Lotus Technology Inc. is listed on the Nasdaq, and its stock ticker symbol is LO\nT.",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "Tell me more about Lotus management team",
+      "generated_answer": "The management team of Lotus Technology is led by Mr. Qingfeng Feng, an industry veteran and visionary leader who has served at Geely Holding for over 20 years. The team is composed of seasoned professionals with diversified backgrounds in R&D, technology, and automotive design. They bring extensive industry experience from leading automotive firms such as Geely Holding, Volvo, Mercedes Benz, BMW, Porsche, Maserati, Aston Martin, Ferrari, and Bugatti. This management team is known for its pioneering, tech-forward, and design-led approach, which aligns with Lotus Technology's commitment to innovation and luxury in the automotive sector.\n\nThe information is based on knowledge available before 2024-09-19.",
+      "reference_answer": "Daniel Donghui Li, Qingfeng Feng, Alexious Kuen Long Lee, Ooi Teik Huat, Ning Yu\n, Ada YunFeng Yan, Anish Melwani",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "Who are the core management team of Lotus?",
+      "generated_answer": "The core management team of Lotus Technology includes:\n\n- **Daniel Donghui Li**: Chairman of the Board of Directors.\n- **Qingfeng Feng**: Director and Chief Executive Officer.\n- **Alexious Kuen Long Lee**: Director and Chief Financial Officer.\n- **Ooi Teik Huat**: Director.\n- **Ning Yu**: Director.\n- **Ada Yunfeng Yan**: Independent Director.\n- **Anish Melwani**: Independent Director.\n\nThis team is composed of seasoned professionals with extensive experience in automotive, technology, and innovation, and they are instrumental in driving the company's growth and development. The information is based on knowledge available before 2024-09-19.",
+      "reference_answer": "The management team of Lotus is as follows: Daniel Donghui Li, Qingfeng Feng, Al\nexious Kuen Long Lee, Ooi Teik Huat, Ning Yu, Ada Yunfeng Yan, Anish Melwani",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技全球门店数量是多少？生活用车已经进入多少国家、地区？",
+      "generated_answer": "截至2024年6月30日，Lotus Technology在全球的分销网络中拥有207家门店。根据计划，Lotus Technology将继续扩展其零售网络。此信息基于2024年9月19日之前的知识。\n\nLotus Technology的日常使用车辆已经进入了多个国家和地区。具体来说，Eletre SUV已经开始在东南亚、中东、新西兰、印度和埃及交付，并且生产订单已经启动，准备在澳大利亚、日本和韩国交付。Emeya GT轿车已经在欧洲开始交付，并在中东、东北亚和东南亚接受预订。因此，Lotus Technology的日常使用车辆已经进入了包括东南亚、中东、新西兰、印度、埃及、澳大利亚、日本和韩国在内的多个国家和地区。以上信息基于2024年11月12日之前的知识。",
+      "reference_answer": "路特斯截止2024年6月有207家门店。这些门店分布在包括中国、欧洲和美国在内的多个国家和地区，这些地区是全球电池电动汽车市场增长最快的区域。Lotus Technology计划继续扩展其零售网络，目标是在2025年之前在全球拥有超过300家门店。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯的主要股东有哪些？",
+      "generated_answer": "Lotus Technology的主要股东包括：\n\n- Qingfeng Feng：持有57,061,196股普通股，占总受益所有权或投票权的8.4%。\n- Lotus Advanced Technology Limited Partnership：持有186,648,945股普通股，占总受益所有权的27.6%。\n- Etika：持有156,236,329股普通股，占总受益所有权的23.1%。\n- Lotus Technology International Investment Limited：持有108,740,886股普通股，占总投票权的16.1%。\n- Meritz：持有50,000,000股普通股，占总投票权的7.4%。\n- Lotus Group International Limited：持有47,995,443股普通股，占总受益所有权的7.1%。\n- Hubei Changjiang Jingkai Automobile Industry Investment Fund Partnership：持有44,997,886股普通股，占总受益所有权的6.6%。\n\n以上信息基于2024年9月19日之前的知识。",
+      "reference_answer": "主要股东包括Lotus Advanced Technology Limited Partnership, Etika 等，还包括高管和主管人员 Daniel D\nonghui Li, Qingfeng Feng等。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技在售产品有哪些？价格是多少？",
+      "generated_answer": "Lotus Technology 目前提供的产品包括：\n\n1. **纯电动汽车 (BEV) 生活方式车型**：包括 Eletre 和 Emeya。\n2. **Lotus 品牌的跑车**：由 Lotus UK 开发和制造，包括 Evija 和 Emira。\n3. **汽车零部件**：提供各种汽车零部件。\n4. **周边产品**：提供与汽车相关的周边产品。\n\n此外，Lotus Technology 还提供汽车设计和开发服务，以及售后服务，为 OEM 客户提供支持，并确保客户在购买后的满意度。\n\n目前在售的四款车型及其价格如下（基于2024年10月16日前的知识）：\n\n- 纯电动超级跑车 EVIJA，价格超过 220 万美元。\n- 纯电动智能 SUV ELETRE，价格超过 10 万美元，属于 E 级。\n- 纯电动智能 GT 轿车 EMEYA，价格超过 10 万美元，属于 E 级。\n- 燃油动力跑车 EMIRA，价格超过 8.5 万美元。",
+      "reference_answer": "公司当前在售四款车型，分别为纯电超跑 EVIJA（定价 220 万美元以上），纯电智能 hyper SUV ELETRE（定价 10 万美元以上，E 级车），纯\n电智能 GT Sedan EMEYA （定价 10 万美元以上，E 级车），以及燃油跑车 EMIRA （定价 8.5 万美元以上）。公司计划 2025、2026\n 年分别推出一款新车型。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "截止2季度的全球销量是多少？",
+      "generated_answer": "截至2024年上半年，Lotus Technology的全球销量为4,873辆，同比增长239%，是传统豪华汽车品牌中增长最快的。全球销量分布均衡，四大市场（欧洲、中国、北美和世界其他地区）各自贡献了20-30%的销量。\n\n以上信息基于2024年11月21日前的知识。",
+      "reference_answer": "路特斯截止2季度的全球销量是4,873台。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "预计2024年销量是多少？",
+      "generated_answer": "根据Lotus Technology的评估，2024年的交付量预计为12,000辆。这一预测是基于对全球宏观经济环境和关税不确定性的谨慎评估。此信息基于2024年11月12日前的知识。",
+      "reference_answer": "Lotus Technology 的最新销售指导目标是年交付量达到 12,000 辆。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯的主要竞争优势是什么？",
+      "generated_answer": "Lotus Technology 的主要竞争优势包括：\n\n1. **早期进入豪华电动汽车市场**：Lotus Technology 作为豪华电动汽车市场的早期进入者，能够抓住全球豪华电动汽车市场的快速增长机会，满足未被满足的需求。公司已经推出了 E 级别豪华电动汽车，并计划继续推出更多车型，从而在电气化进展方面领先于其他品牌。\n\n2. **标志性品牌和赛车传统**：Lotus 品牌拥有超过 70 年的跑车设计和工程经验，其核心原则和 DNA 深深植根于公司的理念中。Lotus 在赛车领域取得了显著成就，包括 6 次 FIA Formula 1 车手世界冠军、7 次 FIA Formula 1 车队世界冠军和 81 次 FIA Formula 1 大奖赛胜利。此外，Lotus 品牌还获得了 2019 年 Luxury Briefing Awards 的“年度豪华品牌”奖，Evija 车型也获得了 2020 年 MUSE Global Design Award。\n\n3. **基于世界级研发能力的下一代技术**：Lotus Group 一直是汽车行业的技术先锋，拥有先进的 800 伏 EPA 架构，具备超充能力、高能效和高速数据传输，适应性强，可支持不同电池大小、电机和组件布局。此外，Lotus 还拥有领先的高级驾驶辅助系统（ADAS）技术，具备 Level 4 级自动驾驶硬件能力，配备世界上首个可部署的 LiDAR 系统、360° 全方位感知覆盖和自研的软件系统。\n\n4. **轻资产商业模式**：Lotus Technology 采用轻资产商业模式，依托 Geely Holding 生态系统，减少了前期资本支出，能够更专注于研发和技术。\n\n5. **可持续性**：公司致力于实现完全电动的产品组合，注重可持续发展。\n\n6. **豪华零售体验和全渠道销售模式**：Lotus Technology 提供豪华的零售体验和全渠道销售模式，增强客户体验。\n\n7. **全球、经验丰富且富有远见的领导团队**：Lotus Technology 拥有一支全球化的、经验丰富且富有远见的领导团队，为公司的发展提供了强大的支持。\n\n以上信息基于 2024-09-19 之前的可用知识。",
+      "reference_answer": "主要竞争优势包括：1. 豪华电动汽车市场的先发优势；2. 标志性赛车传统；3. 专有先进技术，如800伏架构和L4级自动驾驶能力；4. 轻资产商业模式，借助吉利\n资源；5. 强大的可持续发展承诺；6. 全渠道奢侈品零售模式；7. 经验丰富的领导团队。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯的长期战略目标是什么？",
+      "generated_answer": "Lotus Technology 的长期战略目标是成为全球领先的豪华电动汽车品牌。具体来说，Lotus Technology 旨在通过以下几方面实现这一目标：\n\n1. **品牌转型**：利用其品牌赛车传统和领导力，继续提升品牌价值，推出智能和高性能的车辆，以满足客户期望并扩大客户基础，特别是高净值个人和科技敏锐的年轻一代。\n\n2. **地理扩张**：深化在所有地区的市场渗透，特别是在中国、欧洲和美国等关键地区，这些地区是全球电动汽车市场增长最快的市场。通过直接面向消费者的销售和分销策略，建立和发展与客户的直接关系，提供豪华的购买体验和优质的客户服务。\n\n3. **技术创新**：开发下一代电动汽车技术，并利用其研发实力实现技术的商业化。\n\n4. **可持续发展**：致力于可持续发展，目标是在2038年实现碳中和。通过减少废物、采用可再生能源和可回收材料，继续在可持续性方面保持领导地位。\n\n这些战略目标将帮助 Lotus Technology 在全球豪华电动汽车市场中保持竞争优势。以上信息基于2024年9月19日之前的知识。",
+      "reference_answer": "1. 聚焦豪华电动汽车市场；2. 品牌转型；3. 地理扩张；4. 技术开发和商业化；5. 推出新车型并升级现有车型；6. 可持续发展承诺；7. \"Win26\"盈\n利计划以实现正EBITDA。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技和LVMH的关系是什么？",
+      "generated_answer": "Lotus Technology 与 LVMH 之间并没有直接的协议或合作关系。然而，Lotus Technology 与 L Catterton Asia Acquisition Corp (LCAA) 的合并为 Lotus Technology 提供了与 LVMH 的联系。L Catterton 与 LVMH 有战略关系，这为 Lotus Technology 提供了消费者洞察和品牌合作的支持，有助于提升其全球品牌知名度。\n\n此信息基于 2024-11-21 之前的可用知识。",
+      "reference_answer": "路特斯科技与LVMH之间没有直接合作关系，但通过与L Catterton的战略合作，间接受益于LVMH的行业资源和消费者洞察。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技和路特斯汽车的关系是什么？",
+      "generated_answer": "Lotus Technology 与 Lotus Cars 之间的关系是通过一系列合作协议和分销协议建立的。具体来说，Lotus Technology 被任命为 Lotus Cars Limited（Lotus UK 的运营实体）生产的车辆、零部件和某些工具的全球独家分销商（不包括美国，美国由 Lotus Technology International Limited 担任主要分销商，现有区域分销商继续其职能）。此外，Lotus Technology 负责这些车辆、零部件和工具的售后服务、品牌推广、市场营销和公共关系。根据分销协议，Lotus Technology 和 Lotus UK 每年都会制定业务计划和年度目标，考虑历史销售数据、需求预测、国家、地区和地方趋势以及 Lotus UK 的生产能力。此外，现有的 Lotus UK 销售店和经销商将转移给 Lotus Technology。\n\n以上信息基于截至2024年9月19日的知识。",
+      "reference_answer": "路特斯汽车是英国路特斯的跑车制造部门。英国路特斯和路特斯科技是兄弟公司，同为吉利控股。路特斯科技是路特斯汽车生产的跑车的全球主经销商。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "2024年9月27日LTIL和Geely UK Limited之间签署的股权转让协议，请简述协议内容",
+      "generated_answer": "根据2024年9月27日签署的股份转让协议，Lotus Technology Innovative Limited（以下简称“LTIL”）与Geely UK Limited（以下简称“Geely”）达成协议，LTIL同意出售，Geely同意购买LTIL全资子公司Lotus Tech Innovation Center GmbH（以下简称“LTIC”）的800,000股普通股，交易金额为10,880,000欧元。交易在签署股份转让协议时同时完成。交易完成后，Geely将持有LTIC 80%的股份。\n\n此信息基于2024年10月01日之前的知识。",
+      "reference_answer": "2024年9月27日，Lotus Technology Innovative Limited（以下简称“LTIL”）与Geely UK Limited（以下简称\n“Geely”）签订了一份股份出售和转让协议（以下简称“Share Transfer Agreement”）。根据该协议，LTIL同意出售，Geely同意购买L\notus Tech Innovation Center GmbH（以下简称“LTIC”）的800,000股股份，交易金额为10,880,000欧元。LTIC是一\n家在德国注册的公司，是LTIL的全资子公司。该交易在签署股份转让协议时同时完成。交易完成后，Geely将持有LTIC 80%的股份。此信息基于2024年10月0\n1日前的知识。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "2024年9月27日签署的股权转让协议完成之后，LTIC的股权结构是怎样的？",
+      "generated_answer": "根据2024年9月27日签署的股份转让协议，LTIC（Lotus Tech Innovation Center GmbH）的股权结构如下：\n\n- Geely UK Limited（简称“Geely”）持有LTIC 80%的股份。\n- Lotus Technology Innovative Limited（简称“LTIL”）持有LTIC剩余20%的股份。\n\n这些信息基于2024年11月21日之前的知识。",
+      "reference_answer": "根据2024年9月27日签署的股份出售和转让协议完成后的股权结构，Geely UK Limited将持有Lotus Tech Innovation Center\n GmbH (LTIC) 80%的股份，而Lotus Technology Innovative Limited (LTIL) 将持有剩余的20%股份。此信息基\n于2024年10月01日前的知识。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "LTIC向Geely UK Limited转让LTIC股权的转让对价是多少？",
+      "generated_answer": "转让LTIC股份给Geely UK Limited的对价为10,880,000欧元。该交易在签署股份转让协议时同时完成。此信息基于2024年9月27日的知识。",
+      "reference_answer": "转让LTIC股份给Geely UK Limited的对价为10,880,000欧元。该交易已于2024年9月27日签署股份出售和转让协议时同时完成。此信息基于2\n024年10月01日前的知识。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "Lotus Technology公告的最近一次融资是什么交易？具体的交易情况是什么样？",
+      "generated_answer": "最近的融资交易发生在2023年11月，Lotus Technology与Meritz签订了一份股份认购协议。根据该协议，Lotus Technology向Meritz发行了50,000,000股普通股，总认购价格为5亿美元。此外，Lotus Technology将3.25亿美元的美国国债和1.896127亿美元的美国国债和/或美国国库券存入了一个受限制的证券账户。Meritz被授予了一个卖权，可以在某些触发事件发生时以反映12.5%内部收益率的价格将全部或部分认购的普通股出售给Lotus Technology。\n\n此信息基于2024年11月21日之前的知识。交易的具体细节如下：\n\n1. **交易时间**：交易完成于2022年6月。\n2. **交易内容**：赞助方购买了5,000,000个私人配售认股权证，每个认股权证的价格为1.50美元，总购买价格为7,500,000美元。\n3. **额外购买**：在超额配售权行使后，公司又向赞助方出售了486,784个私人配售认股权证，每个认股权证的价格为1.50美元，额外筹集了730,176美元的毛收入。\n4. **资金用途**：部分私人配售认股权证的销售收入被加入到IPO信托账户中。\n5. **认股权证的限制**：私人配售认股权证（包括可行使的A类普通股）在初始业务合并完成后的30天内不可转让、分配或出售，且在赞助方或其允许的受让人持有期间不可由公司赎回（除非有特定描述）。\n6. **认股权证的行使**：赞助方或其允许的受让人可以选择以无现金方式行使私人配售认股权证。\n\n这些信息基于2024年10月1日前的知识。",
+      "reference_answer": "最近的融资交易是Lotus Technology与Westwood Capital Group LLC在2024年9月16日签署的证券购买协议和相关的注册权协议\n。这些协议的详细内容可以在2024年9月16日提交的Form 6-K文件中找到。以上信息基于2024年11月21日之前的知识。",
+      "passing": false,
+      "feedback": "NO"
+    },
+    {
+      "question": "介绍一下Kershaw Health Limited",
+      "generated_answer": "Kershaw Health Limited 是一家专注于健康和医疗领域的公司。它提供多种健康产品和服务，旨在提升人们的生活质量。如果您需要更详细的信息，我们的真人助理可以提供。",
+      "reference_answer": "Kershaw Health Limited 是一家在英格兰和威尔士注册的私人有限公司。根据2024年11月7日与Lotus Technology Inc.签订\n的债券认购协议，Kershaw Health Limited同意认购并购买Lotus Technology Inc.发行的2029年到期的高级债券，本金金额为5\n亿美元。Kershaw Health Limited需在债券发行日期后的30天内支付全部认购价格。 以上信息基于2024年11月8日之前的资料。",
+      "passing": false,
+      "feedback": "NO"
+    },
+    {
+      "question": "公司对全球豪华电动车市场持什么观点？对行业竞争怎么看？",
+      "generated_answer": "Lotus Technology 认为全球豪华电动汽车市场将快速增长。根据 Oliver Wyman 的预测，全球豪华电动汽车市场（定义为制造商建议零售价超过 80,000 美元的电动汽车）预计从 2021 年到 2031 年将以 35% 的复合年增长率增长，并在 2031 年达到近 190 万辆的市场规模。目前，全球豪华电动汽车市场供应不足，仅有约 10 款现有的豪华电动汽车型号，而传统内燃机豪华车型则超过 100 款，这为消费者提供了有限的选择。\n\n为了抓住全球豪华电动汽车市场的增长机遇，Lotus Technology 计划采取以下策略：\n1. **提升品牌价值**：利用其赛车传统和领导力，继续推出全电动和高性能车辆，满足客户期望，扩大客户基础，特别是高净值个人和科技 savvy 的年轻一代。\n2. **扩大地理覆盖**：深化在所有地区的市场渗透，特别是在中国、欧洲和美国等关键地区，这些地区是全球电动汽车市场快速增长的驱动力。Lotus Technology 采用直接面向消费者的全球销售和分销策略，计划到 2025 年在全球建立超过 300 家门店。\n3. **开发下一代电动汽车技术**：持续开发和增强专有技术，包括 800 伏 EPA 架构、硬件、算法和软件系统，以提升车辆的竞争力。所有技术都以“为驾驶者”为原则，继承其独特的设计语言和理念。\n4. **推出新车型和升级现有车型**：计划在未来两年内推出两款全电动汽车，包括 2025 年的 D 级 SUV 和 2026 年的 BEV 生活方式跑车。同时，计划对现有车型进行升级，配备创新技术和设计。\n5. **聚焦可持续性和引领电气化**：作为豪华汽车段电气化转型的领导者，Lotus Technology 计划到 2027 年实现 100% 的 BEV 产品组合，并在 2038 年实现碳中和。\n\n这些策略将帮助 Lotus Technology 在全球豪华电动汽车市场中保持领先地位。公司在竞争中面临的主要因素包括品牌认知、声望和历史；设计、风格和豪华感；技术创新；驾驶体验；产品质量和性能；产品可靠性和安全性；电池续航、效率和充电速度；客户服务和体验，包括充电选项的可获得性以及售后服务的可用性和条款；产品定价；管理团队在将电动汽车和其他颠覆性技术推向市场方面的经验；制造效率；环境影响和认知；以及相关车辆软件的复杂程度。尽管 Lotus Technology 认为公司在这些方面具有竞争优势，但许多当前和潜在的竞争对手拥有显著更多的财务、技术、制造、营销和其他资源，可能能够投入更多资源进行设计、开发、制造、分销、推广、销售和产品支持。此外，这些竞争对手还可能在招聘和保留合格的研发、销售、营销和管理人才方面与 Lotus Technology 竞争，以及在获取对产品有益或必要的技术方面进行竞争。未来，随着电动汽车和豪华汽车市场的并购，竞争对手的资源可能会更加集中。Lotus Technology 预期汽车行业竞争将因对替代燃料车辆的需求增加和全球化的持续发展而加剧。这些竞争因素可能会影响公司的业务、财务状况、经营成果和前景。",
+      "reference_answer": "Lotus Technology 预计全球豪华电动汽车市场将快速增长，从2021年到2031年的复合年增长率将达到35%，到2031年市场将达到近190万辆。然\n而，目前市场供应不足，只有大约10款豪华电动汽车在售，而传统内燃机豪华车型则超过100款，消费者选择有限。作为早期进入者，Lotus Technology 通过\n推出其首款全电动高性能SUV Eletre，领先于竞争对手，旨在填补市场空白并抓住先发优势。Eletre 提供三种不同版本：Eletre、Eletre S 和 \nEletre R，其中 Eletre R 最大功率可达905马力，0到100公里/小时加速仅需2.95秒。公司在行业竞争中面临的主要因素包括品牌认知、声望和历史\n；设计、风格和豪华感；技术创新；驾驶体验；产品质量和性能；产品可靠性和安全性；电池续航、效率和充电速度；客户服务和体验，包括充电选项的可获得性和售后服务的可用性\n和条款；产品定价；管理团队在将电动汽车和其他颠覆性技术推向市场的经验；制造效率；环境影响和认知；以及相关车辆软件的复杂程度。尽管如此，许多当前和潜在的竞争对手拥\n有远超 Lotus Technology 的财务、技术、制造、营销和其他资源，这些竞争对手可能能够投入更多资源用于设计、开发、制造、分销、推广、销售和产品支持。\n此外，许多竞争对手还拥有更高的品牌认知度、更长的经营历史、更大的销售团队、更广泛的客户和行业关系，以及其他有形和无形资源。Lotus Technology 预期\n未来汽车行业竞争将加剧，特别是在替代燃料车辆需求增加和全球汽车行业整合的背景下。这些竞争因素可能会影响公司的业务、财务状况、经营成果和前景。以上信息基于2024\n年9月19日之前的认知。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "三款Eletre有什么区别",
+      "generated_answer": "Lotus Technology 提供了三种不同版本的 Eletre，分别是 Eletre、Eletre S 和 Eletre R，以满足不同客户的需求。\n\n1. **Eletre 和 Eletre S**：\n   - **性能**：Eletre 和 Eletre S 都可以达到最高时速 258 公里，从 0 到 100 公里/小时的加速时间为 4.5 秒，从 80 到 120 公里/小时的加速时间不到 2.2 秒。最大扭矩为 710 牛米。\n   - **续航里程**：根据 WLTP 标准，Eletre 和 Eletre S 的最大续航里程为 600 公里。\n   - **动力系统**：Eletre 和 Eletre S 配备 450 千瓦单速版本的动力系统。\n   - **价格**：Eletre 和 Eletre S 的平均建议零售价超过 100,000 美元。\n\n2. **Eletre R**：\n   - **性能**：Eletre R 可以达到最高时速 265 公里，从 0 到 100 公里/小时的加速时间为 2.95 秒，从 80 到 120 公里/小时的加速时间不到 1.9 秒。最大扭矩为 985 牛米。\n   - **续航里程**：根据 WLTP 标准，Eletre R 的最大续航里程为 490 公里。\n   - **动力系统**：Eletre R 配备 675 千瓦双速系统，后置发动机为双速版本。\n   - **价格**：Eletre R 的平均建议零售价超过 130,000 美元。\n   - **额外功能**：Eletre R 还提供额外的赛道模式，以及五种标准驾驶模式。\n\n所有三个版本都配备了 112 千瓦时的电池包，快充时间从 10% 到 80% 仅需不到 20 分钟。\n\n以上信息基于 2024-09-19 之前的可用知识。",
+      "reference_answer": "Eletre 提供了三种不同的版本，分别是 Eletre、Eletre S 和 Eletre R，以满足不同客户的需求。1. **Eletre** 和 **El\netre S**：   - **动力系统**：这两款版本均采用 450 千瓦单速版本，配备 112 千瓦时电池包。   - **续航里程**：根据 WLTP 标\n准，最大续航里程为 600 公里。   - **性能**：Eletre 和 Eletre S 可以在 4.5 秒内从 0 加速到 100 公里/小时，从 80 \n到 120 公里/小时的加速时间不到 2.2 秒，最大扭矩为 710 牛米。   - **定位**：Eletre S 更注重提供更长的续航里程和更高的舒适性。2\n. **Eletre R**：   - **动力系统**：Eletre R 采用 675 千瓦双速系统，同样配备 112 千瓦时电池包。   - **续航里程*\n*：根据 WLTP 标准，最大续航里程为 490 公里。   - **性能**：Eletre R 可以在 2.95 秒内从 0 加速到 100 公里/小时，从 \n80 到 120 公里/小时的加速时间不到 1.9 秒，最大扭矩为 985 牛米，最大马力为 905 马力。   - **定位**：Eletre R 针对追求速\n度和操控性能的客户，提供额外的赛道模式。这些版本在性能、续航里程和配置上有所不同，以满足不同客户的需求。以上信息基于 2024 年 9 月 19 日前的知识。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯是否仍在销售燃油车",
+      "generated_answer": "Lotus Technology 主要专注于电动汽车的生产和销售，但其全球销售和分销网络中仍然包括某些由 Lotus UK 开发和制造的内燃机车型，例如 Emira。因此，Lotus Technology 仍然在销售汽油车，但这些车型主要由 Lotus UK 负责开发和制造。\n\n以上信息基于2024年9月19日之前的知识。",
+      "reference_answer": "Lotus 仍然销售汽油车。虽然 Lotus Technology 主要专注于设计和开发豪华电池电动汽车 (BEV)，但通过其全资子公司和可变利益实体 (VIE\n) 及其子公司，Lotus 仍然在全球范围内销售豪华汽油跑车。这些汽油跑车包括像 Emira 这样的车型，它们继续在市场上保持较高的售价和良好的销售表现。以上信\n息基于 2024-10-16 之前的知识。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "简述Lotus Technology的公司架构",
+      "generated_answer": "Lotus Technology Inc. 是一家在开曼群岛注册的有限责任公司，成立于2021年8月9日。该公司通过其全资子公司、可变利益实体（VIE）及其子公司的整合，主要从事设计、开发和销售以“Lotus”品牌命名的豪华电池电动汽车（BEV生活方式车型）的业务（Lotus BEV业务）。此外，集团还作为分销商，销售以“Lotus”品牌命名的豪华跑车（Lotus跑车业务）。\n\nLotus Technology Inc. 的主要子公司包括：\n- Lotus Advanced Technology Limited，注册地为香港。\n- Lotus Technology International Limited，注册地为香港。\n- Lotus Technology Innovative Limited，注册地为英国。\n- Lotus Tech Creative Centre Limited，注册地为英国。\n- Lotus Tech Innovation Centre GmbH，注册地为德国。\n- Lotus Cars Europe B.V.，注册地为荷兰。\n- Wuhan Lotus Technology Co., Ltd.，注册地为中国。\n- Wuhan Lotus Cars Co., Ltd.，注册地为中国。\n- Wuhan Lotus Cars Sales Limited，注册地为中国。\n- Wuhan Lotus Private Fund Management Co., Ltd.，注册地为中国。\n- Hangzhou Lotus Technology Service Co., Ltd.，注册地为中国。\n- Sanya Lotus Venture Capital Co., Ltd.，注册地为中国。\n\nLotus Technology Inc. 本身并不是运营公司，而是一个开曼群岛的控股公司。其运营通过在中国和欧洲的子公司进行。在2023年之前，公司还通过中国大陆的VIE及其子公司进行运营，但自2023年起，公司进行了重组，不再使用VIE结构。目前，Lotus Technology Inc. 在中国大陆的运营由其在中国大陆的子公司进行。\n\n此信息基于2024年9月19日之前的知识。",
+      "reference_answer": "Lotus Technology Inc. 是一家注册在开曼群岛的控股公司，主要通过其在中国和欧洲的子公司开展业务。截至最新的重组，Lotus Technolo\ngy 的中国大陆业务由其在中国大陆的子公司运营，不再通过可变利益实体（VIE）结构进行。Lotus Technology Inc. 通过其全资子公司和整合的可变\n利益实体及其子公司的集团，主要从事设计、开发和销售豪华电池电动汽车（BEV 生活方式车型）以及豪华跑车的销售。此外，集团还提供其他销售和辅助服务。以下是 Lot\nus Technology Inc. 的主要子公司及其注册地：- Lotus Advanced Technology Limited（注册地：香港）- Lotu\ns Technology International Limited（注册地：香港）- Lotus Technology Innovative Limited（\n注册地：英国）- Lotus Tech Creative Centre Limited（注册地：英国）- Lotus Tech Innovation Centr\ne GmbH（注册地：德国）- Lotus Cars Europe B.V.（注册地：荷兰）- Wuhan Lotus Technology Co., Ltd.\n（注册地：中国）- Wuhan Lotus Cars Co., Ltd.（注册地：中国）- Wuhan Lotus Cars Sales Limited（注册地\n：中国）- Wuhan Lotus Private Fund Management Co., Ltd.（注册地：中国）- Hangzhou Lotus Tech\nnology Service Co., Ltd.（注册地：中国）- Sanya Lotus Venture Capital Co., Ltd.（注册地：中国）这\n些子公司覆盖了多个业务领域，包括技术研发、车辆制造、销售和服务，体现了 Lotus Technology Inc. 的全球业务布局。以上信息基于2024年9月1\n9日之前的知识。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "Lotus Technology是VIE架构吗？",
+      "generated_answer": "截至2023年6月30日，Lotus Technology 已经完成了重组，不再通过 VIE（可变利益实体）结构运营。目前，Lotus Technology 在中国大陆的业务由其全资子公司进行，不再依赖 VIE 结构。这一重组对 Lotus Technology 的运营和财务结果没有产生重大影响。\n\n以上信息基于2024年9月19日之前的知识。",
+      "reference_answer": "Lotus Technology 目前不再采用 VIE 结构。根据 2024 年 5 月 3 日的信息，Lotus Technology 在 2023 年进行了\n重组，其全资子公司（WFOE）收购了前 VIE 的全部股权，并将前 VIE 的资产、负债、业务合同、知识产权和员工转移给了 WFOE 或其子公司。VIE 结构已\n于 2023 年 6 月 30 日终止。目前，Lotus Technology 在中国大陆的业务由其中国大陆子公司运营。这一重组对公司的运营和财务结果没有重大影\n响。此信息基于 2024 年 9 月 19 日前的知识。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技在2024年1季度、2季度、3季度的跑车和生活用车交付量分别是多少？",
+      "generated_answer": "在2024年的第一季度、第二季度和第三季度，Lotus Technology的运动车和生活方式车辆的交付量如下：\n\n- **第一季度 (Q1)**\n  - 运动车: 无具体数据\n  - 生活方式SUV和轿车: 无具体数据\n\n- **第二季度 (Q2)**\n  - 运动车: 无具体数据\n  - 生活方式SUV和轿车: 无具体数据\n\n- **第三季度 (Q3)**\n  - 运动车: 1,150辆\n  - 生活方式SUV和轿车: 1,594辆\n\n以上信息基于2024年9月21日之前的知识。",
+      "reference_answer": "根据2024年10月18日的最新数据，Lotus Technology Inc. 在2024年前九个月共交付了7,617辆汽车，同比增长134%。具体到各个季度\n的交付量如下：- **2024年第一季度 (Q1)**：根据2024年9月19日的数据，2024年上半年（1H 2024）共交付了4,873辆汽车，包括生活方式\nSUV和轿车2,389辆，跑车2,484辆。由于第一季度和第二季度的具体数据没有单独列出，我们可以推断第一季度的交付量大约为2,436辆（4,873辆的一半）。\n- **2024年第二季度 (Q2)**：同样根据2024年上半年的数据，第二季度的交付量大约也为2,436辆。- **2024年第三季度 (Q3)**：202\n4年第三季度的交付量为2,670辆（7,543辆 - 4,873辆）。这些数据表明，Lotus Technology在2024年的交付量持续增长，特别是在第三季\n度，交付量进一步增加。以上信息基于2024年10月18日之前的知识。",
+      "passing": false,
+      "feedback": "NO"
+    },
+    {
+      "question": "路特斯科技在2024年1季度、2季度、3季度中国、北美、欧洲、其他市场的交付量分别是多少？",
+      "generated_answer": "在2024年的第一季度、第二季度和第三季度，Lotus Technology在各个市场的交付量如下：\n\n- **中国**：\n  - Q1: 无具体数据\n  - Q2: 无具体数据\n  - Q3: 无具体数据\n  - 总计（1-9月）：1,880辆\n\n- **北美**：\n  - Q1: 无具体数据\n  - Q2: 无具体数据\n  - Q3: 无具体数据\n  - 总计（1-9月）：1,665辆\n\n- **欧洲**：\n  - Q1: 无具体数据\n  - Q2: 无具体数据\n  - Q3: 无具体数据\n  - 总计（1-9月）：2,683辆\n\n- **其他市场**：\n  - Q1: 无具体数据\n  - Q2: 无具体数据\n  - Q3: 无具体数据\n  - 总计（1-9月）：1,389辆\n\n以上信息基于2024年11月21日之前的知识。",
+      "reference_answer": "2024年第一季度、第二季度和第三季度，Lotus Tech在各个市场的交付量如下：- **中国**：在2024年的前九个月，Lotus Tech在中国市场的交\n付量占总交付量的25%。具体到每个季度的数据没有详细提供，但可以推断每个季度的交付量大约在1,900辆左右。- **欧洲**：在2024年的前九个月，欧洲市场的\n交付量占总交付量的35%。具体到每个季度的数据没有详细提供，但可以推断每个季度的交付量大约在2,660辆左右。- **美国**：美国市场的交付量数据没有单独列出\n，但可以推测其包含在“北美”区域的交付量中。北美市场的交付量占总交付量的20-35%之间，具体到每个季度的数据没有详细提供，但可以推断每个季度的交付量大约在1,\n520辆到2,660辆之间。- **其他市场**：在2024年的前九个月，其他市场的交付量占总交付量的18-35%之间。具体到每个季度的数据没有详细提供，但可以\n推断每个季度的交付量大约在1,370辆到2,660辆之间。以上信息基于2024年11月21日之前的知识。",
+      "passing": false,
+      "feedback": "NO"
+    },
+    {
+      "question": "路特斯科技是否拥有路特斯品牌？",
+      "generated_answer": "Lotus Technology 并不拥有 “Lotus” 品牌的商标。根据协议，Lotus Technology 依赖于 Group Lotus Limited 获取、维护和执行这些商标。Group Lotus Limited 是 “Lotus” 品牌商标的所有者，并授予 Lotus Technology 使用这些商标的许可，特别是用于生活方式车辆（非跑车）的业务。这些商标许可协议是 Lotus Technology 业务的重要组成部分，但商标的所有权仍归 Group Lotus Limited 所有。\n\n以上信息基于 2024-09-19 之前的知识。",
+      "reference_answer": "Lotus Tech 通过与 Group Lotus Limited 签订的商标许可协议，获得了“Lotus”商标的使用权，主要用于与生活方式车辆相关的业务（不\n包括跑车）。根据协议，Lotus Tech 发行了 47,995,443 股普通股作为商标许可的对价。此外，Lotus Tech 通过其全资子公司和可变利益实体\n（VIE）及其子公司，主要负责设计、开发和销售豪华电池电动汽车（BEV生活方式车型）和豪华跑车。因此，Lotus Tech 在很大程度上控制了 Lotus 品牌\n的使用和推广。以上信息基于2024年9月19日之前的知识。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "路特斯科技的盈利水平和现金流情况怎么样？",
+      "generated_answer": "Lotus Technology在2024年上半年的利润水平和现金流情况如下：\n\n利润水平：\n- 2024年上半年，Lotus Technology的总收入为398,115,000美元，其中商品销售收入为382,893,000美元，服务收入为15,222,000美元。\n- 总成本为347,203,000美元，其中商品销售成本为340,882,000美元，服务成本为6,321,000美元。\n- 毛利润为50,912,000美元。\n- 研发费用为174,854,000美元，销售和营销费用为204,274,000美元，管理费用为111,978,000美元，政府补助为2,488,000美元，总运营费用为488,618,000美元。\n- 营业亏损为437,706,000美元。\n- 利息支出为11,708,000美元，利息收入为8,658,000美元。\n- 投资收入为3,496,000美元，权益法投资收益为359,000美元，外汇损失为4,429,000美元。\n- 税前亏损为459,897,000美元，所得税费用为355,000美元，净亏损为460,252,000美元。\n\n现金流情况：\n- 2024年上半年，经营活动使用的现金为468,361,000美元。\n- 投资活动使用的现金为542,860,000美元。\n- 融资活动提供的现金为1,248,800,000美元。\n- 汇率变动对现金和受限现金的影响为减少20,899,000美元。\n- 2024年上半年现金和受限现金净增加216,680,000美元。\n- 2024年初现金和受限现金为427,135,000美元，2024年6月30日现金和受限现金为643,815,000美元。\n\n以上信息基于2024年9月19日之前的可用知识。",
+      "reference_answer": "Lotus Technology 自成立以来尚未实现盈利。根据最新的财务数据，截至2024年6月30日，公司净亏损为4.603亿美元，2023年、2022年和2\n021年的净亏损分别为7.503亿美元、7.246亿美元和1.105亿美元。此外，公司在2024年上半年的经营活动产生的净现金流出为4.684亿美元，2023年\n、2022年和2021年的净现金流出分别为3.869亿美元、3.514亿美元和1.265亿美元。截至2024年6月30日，公司的累计赤字为20亿美元，而2023\n年底、2022年底和2021年底的累计赤字分别为16亿美元、8.468亿美元和1.228亿美元。尽管目前的财务状况较为紧张，但Lotus Technology \n通过 Win26 计划，计划在2026年实现正现金流和盈利。公司还设定了每年交付12,000辆汽车的目标，年增长率超过70%。以上信息基于2024年10月16日\n之前的知识。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "公司如何对待用户的个人数据？",
+      "generated_answer": "Lotus Technology 非常重视用户的个人数据保护。根据《通用数据保护条例》（GDPR），Lotus Technology 在处理位于欧洲经济区（EEA）的个人数据时，必须遵守严格的要求，包括合法性、公平性、透明性、目的限制、数据最小化、数据准确性、存储限制、完整性和保密性等原则。此外，Lotus Technology 还需要采取措施防止潜在的数据泄露，并在数据泄露可能导致低风险之外的情况下，在72小时内向数据保护监管机构报告。\n\n为了保护系统、产品和数据，Lotus Technology 采取了多种技术和组织安全政策、程序、技术控制和协议。公司拥有一个专门的团队，专注于应用程序、网络、系统和产品安全，并基于明确的组织运营模型进行操作。Lotus Technology 已获得 ISO/IEC 27001 认证和 R155/R156 认证，并已启动公司范围的数据隐私政策和控制，配备了跨职能资源。\n\nLotus Technology 实施了企业漏洞管理流程，包括定期扫描以识别安全漏洞并实施修复。公司还进行内部和外部渗透测试，接收威胁情报，遵循事件响应程序，并根据严重性和风险修复漏洞。此外，Lotus Technology 建立了集中化的组织范围的信息资产视图，并实施了网络安全风险监控政策，以检测威胁和网络安全风险。公司还部署了网络安全监控能力，收集和分析来自广泛来源的遥测数据，并采取主动措施确保系统的安全风险可视化。\n\n在隐私政策方面，Lotus Technology 的目标是在改善产品和服务的同时，保护客户的隐私期望并遵守适用法律。全球隐私法律和实践将指导 Lotus Technology 的运营设计、控制、程序和政策。公司的策略考虑了业务扩展带来的风险，通过适当的安保和访问控制来保护客户和员工的信息。Lotus Technology 的隐私措施将继续发展和适应，采用最佳实践和定制的风险管理框架，以促进组织内部的信息技术和法律部门之间的密切合作，这对于有效的隐私措施至关重要。公司还通过教育和培训提高整个组织的网络安全和隐私意识。\n\n以上信息基于2024年9月19日之前的知识。",
+      "reference_answer": "Lotus Technology 采取了严格的措施来处理用户的个人数据。公司使用车辆的电子系统记录某些信息，以帮助进行车辆诊断、维修和维护，以及优化驾驶和乘坐体\n 验。这些数据的收集是在必要权限下进行的。为了确保数据安全，Lotus Technology 采用了先进的加密技术和其他安全措施，以防止数据丢失和其他安全漏洞。\n此 外，公司还制定了严格的信息安全政策，以遵守各种司法管辖区的数据隐私和安全法律法规。 这些法律法规包括但不限于中国的网络安全法、民法典、数据安全法和个人信息保\n护 法，以及欧盟的《通用数据保护条例》（GDPR）等。Lotus Technology 会密切监控这些法律法规的发展，并评估其对公司当前业务实践的潜在影响。 L\notus Technology 也意识到，任何未经授权访问车辆、系统或数据的报告，无论其真实性如何，都可能对公司的品牌和业务产生负面影响。因此，公司致力于确保数\n据 的安全性和合规性，以保护用户的信息和公司的业务。 以上信息基于2024年9月19日之前的知识。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "Kershaw Health Limited与Lotus Technology达成了什么协议？",
+      "generated_answer": "Kershaw Health Limited 与 Lotus Technology 达成了一项债券认购协议（Bond Subscription Agreement），根据该协议，Kershaw Health Limited 同意认购并购买，而 Lotus Technology 同意发行并出售一笔本金金额为 5 亿美元的高级债券（Bond），到期日为 2029 年。Kershaw Health Limited 应在债券发行日期后的三十天内支付或安排支付 5 亿美元的认购价格。根据债券认购协议，在 Kershaw Health Limited 完全支付债券购买价格之前，Lotus Technology 有权选择以 Kershaw Health Limited 已支付的债券本金金额为回购价格，全部但不能部分回购该债券。\n\n以上信息基于 2024 年 11 月 7 日前的知识。",
+      "reference_answer": "Kershaw Health Limited 与 Lotus Technology Inc. 达成了一项债券认购协议（Bond Subscription Agr\neement），该协议于2024年11月7日签订。根据该协议，Kershaw Health Limited 同意认购并购买，而 Lotus Technology\n 同意发行并出售一笔本金金额为5亿美元的高级债券（Bond），到期日为2029年。Kershaw Health Limited 应在债券发行日期后的30天内支付\n或促使支付5亿美元的认购价格给 Lotus Technology。此外，根据债券认购协议，在Kershaw Health Limited 全额支付债券购买价格之\n前，Lotus Technology 有权选择以等于Kershaw Health Limited 已支付的债券本金金额的回购价格，全部但不能部分地回购该债券。以\n上信息基于2024年11月8日之前的知识。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "Kershaw Health Limited认购Lotus Technology的债券金额是多少？",
+      "generated_answer": "Kershaw Health Limited 订购了 Lotus Technology 的债券，金额为 5 亿美元。该债券为 2029 年到期的高级债券，认购价格为债券本金金额的 100%。根据 2024 年 11 月 7 日签订的债券认购协议，Kershaw Health Limited 应在债券发行日期后的 30 天内支付 5 亿美元的认购价格。\n\n以上信息基于 2024 年 11 月 7 日前的知识。",
+      "reference_answer": "Kershaw Health Limited 订购了 Lotus Technology 发行的本金金额为 5 亿美元的高级债券。根据债券认购协议，Kershaw\n Health Limited 同意在债券发行日期后的三十天内支付 5 亿美元的认购价格。此信息基于 2024-11-08 之前的可用知识。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "Kershaw Health Limited与Lotus Technology的交易进展如何？",
+      "generated_answer": "截至2024年11月7日，Lotus Technology Inc. 与 Kershaw Health Limited 签署了一项债券认购协议（“Bond Subscription Agreement”）。根据该协议，Kershaw Health Limited 同意认购并购买，而 Lotus Technology 同意发行并出售本金金额为5亿美元的高级债券（“Bond”），认购价格为债券本金金额的100%。Kershaw Health Limited 应在债券发行日期后的30天内支付或促使支付5亿美元的认购价格给 Lotus Technology。\n\n此外，根据债券认购协议，在 Kershaw Health Limited 完全支付债券购买价格之前，Lotus Technology 有权选择以等于 Kershaw Health Limited 在回购日期（如有）支付的债券本金金额的回购价格，全部但不可部分地回购债券。\n\n以上信息基于2024年11月7日之前的知识。",
+      "reference_answer": "根据2024年11月7日签署的债券认购协议，Kershaw Health Limited同意认购并购买Lotus Technology Inc.发行的5亿美元的\n高级债券，该债券将于2029年到期。Kershaw Health Limited需在债券发行日期后的30天内支付5亿美元的认购价格。在Kershaw Healt\nh Limited全额支付债券购买价格之前，Lotus Technology有权选择以Kershaw Health Limited已支付的本金金额为回购价格，全\n部回购该债券。以上信息基于2024年11月8日之前的知识。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "Lotus Technology在9月和10月的交付量分别是多少？",
+      "generated_answer": "在2024年的前10个月，Lotus Technology共交付了8,631辆汽车。根据已知信息，2024年第三季度（7月至9月）共交付了2,744辆汽车。因此，9月份的具体交付量无法单独确定，但可以推断9月份的交付量包含在2,744辆中。\n\n至于10月份的交付量，没有具体的数据提供，但可以确定的是，10月份的交付量使得前10个月的总交付量达到了8,631辆。\n\n以上信息基于2024年11月21日之前的知识。",
+      "reference_answer": "在2024年9月和10月，Lotus Technology的交付数量如下：在2024年的前九个月，Lotus Technology交付了7,617辆汽车，同比增\n长134%。在2024年的前十个月中，Lotus Technology交付了8,631辆汽车。这些数据反映了Lotus Technology在2024年的强劲增\n长势头。以上信息基于2024年11月21日之前的可用知识。",
+      "passing": true,
+      "feedback": "YES"
+    },
+    {
+      "question": "介绍一下吉利控股？吉利控股给路特斯科技带来什么助力？",
+      "generated_answer": "Geely Holding 是一家全球移动技术集团，拥有孵化和振兴电动汽车品牌的成功记录。2017年，Geely Holding 收购了英国莲花汽车公司（Lotus UK）51%的股份，并将其定位为豪华生活方式的电池电动汽车（BEV）制造商。Geely Holding 为莲花技术提供了全面的支持，包括制造、供应链、研发、物流基础设施和人力资源。具体支持方式如下：\n\n1. **制造和供应链**：根据2022年开始的10年制造协议，Lotus Technology 委托 Geely Holding 进行车辆生产，并授权其使用相关技术。Geely Holding 的供应链和采购能力帮助 Lotus Technology 控制供应链风险并加速产品开发。\n\n2. **研发和工程**：Geely Holding 在研发和工程方面提供全面支持，确保产品符合全球标准。\n\n3. **技术许可和合作**：Lotus Technology 与 Geely Holding 签订了多项协议，包括技术许可、制造合作和供应框架，加速产品上市。\n\n4. **资本投资和运营支持**：Geely Holding 提供资本投资和运营支持，帮助 Lotus Technology 在资产轻量化模式下运营，减少前期资本支出，快速实现商业化。\n\n5. **品牌和市场推广**：Geely Holding 支持 Lotus Technology 的品牌建设和市场推广。通过分销协议，Lotus Technology 成为 Lotus UK 车辆的全球独家分销商（美国除外），负责车辆、零部件和工具的分销，以及售后服务、品牌营销和公共关系。\n\n这些支持使 Lotus Technology 能够快速扩展商业规模，同时保持高质量标准和技术创新。以上信息基于2024年9月19日之前的知识。",
+      "reference_answer": "Geely Holding 是一家全球领先的移动技术集团，成功孵化和振兴了多个世界知名汽车品牌，包括沃尔沃、极星、领克和极氪。作为唯一拥有跑车基因的吉利控股集团\n品牌，Lotus Technology 获得了吉利控股集团在制造、供应链、研发、物流基础设施和人力资源方面的全面支持，正在从英国跑车公司转型为全球高性能电动汽车\n的先驱，旨在弥合传统跑车与新一代电动汽车之间的差距。根据 Oliver Wyman 的预测，全球豪华电池电动汽车（BEV）市场（定义为制造商建议零售价超过 80\n,000 美元的 BEV）预计将在 2021 年至 2031 年间以 35% 的复合年增长率快速增长，到 2031 年市场将达到近 190 万辆。Geely H\nolding 通过技术许可、生产合作和供应链框架等协议支持 Lotus Tech，使 Lotus Tech 能够利用其丰富的资源。具体来说，Geely Hold\ning 负责原材料的订购和检验、生产计划、生产质量控制、制造车辆的物流和运输，以及制造工厂的建设和运营。此外，Geely Holding 还负责获取制造车辆所需\n的证书。通过与 Geely Holding 的合作，Lotus Tech 能够快速扩大商业化规模，同时保持轻资产运营模式，减少前期资本投入，控制供应链相关风险，\n加速产品开发，并在全球市场上更快速、高效和成本效益地扩展业务。",
+      "passing": true,
+      "feedback": "YES"
+    }
+  ]
+}

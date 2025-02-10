@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Test</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #chat-box {
+            height: 300px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #f8f9fa;
+        }
+        .chat-message {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .user-message {
+            background-color: #d1e7dd;
+            border: 1px solid #badbcc;
+        }
+        .bot-message {
+            background-color: #f8d7da;
+            border: 1px solid #f5c2c7;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="mt-5">LangChain Test</h1>
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <div id="chat-box"></div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <form id="chat-form">
+                <div class="form-group">
+                    <label for="question">Enter your question:</label>
+                    <input type="text" class="form-control" id="question" placeholder="Type your question here" required>
+                </div>
+                <button type="submit" class="btn btn-primary" id="send-button">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('chat-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const question = document.getElementById('question').value;
+        if (!question) return;
+
+        const sendButton = document.getElementById('send-button');
+        sendButton.disabled = true;
+
+        const chatBox = document.getElementById('chat-box');
+        const questionElement = document.createElement('div');
+        questionElement.className = 'chat-message user-message';
+        questionElement.textContent = `You: ${question}`;
+        chatBox.appendChild(questionElement);
+        chatBox.scrollTop = chatBox.scrollHeight;
+
+        document.getElementById('question').value = '';
+
+        fetch('/langchain_chat', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({question: question})
+        }).then(response => {
+            const reader = response.body.getReader();
+            const decoder = new TextDecoder();
+            let botMessageElement;
+
+            const streamResponse = () => {
+                reader.read().then(({done, value}) => {
+                    if (done) {
+                        sendButton.disabled = false;
+                        return;
+                    }
+                    const jsonText = decoder.decode(value, {stream: true});
+                    const lines = jsonText.split('\n');
+                    lines.forEach(line => {
+                        if (line) {
+                            const data = JSON.parse(line.substring(6)); // remove "data: " prefix
+                            if (!botMessageElement) {
+                                botMessageElement = document.createElement('div');
+                                botMessageElement.className = 'chat-message bot-message';
+                                botMessageElement.innerHTML = '<span class="bot-prefix">Bot: </span><span class="bot-content"></span>';
+                                chatBox.appendChild(botMessageElement);
+                            }
+                            const botContent = botMessageElement.querySelector('.bot-content');
+                            botContent.innerHTML += data.response.replace(/\n/g, '<br>');
+                            chatBox.scrollTop = chatBox.scrollHeight;
+                        }
+                    });
+                    streamResponse();
+                });
+            };
+            streamResponse();
+        }).catch(error => {
+            console.error('Error:', error);
+            sendButton.disabled = false;
+        });
+    });
+</script>
+</body>
+</html>
