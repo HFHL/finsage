@@ -1,51 +1,69 @@
-RAG_Agent
+# RAG_Agent
 
-Directory Structure
+## Directory Structure
 
-config/
-	•	Contains configuration files, such as config_vllm.yaml
-	•	Includes configuration information such as database paths, model names, API URLs, etc.
+### config/
+- **Purpose:** Contains configuration files.
+- **Details:**
+  - Example file: `config_vllm.yaml`
+  - Stores configuration information such as:
+    - Database paths
+    - Model names
+    - API URLs
+    - Other relevant settings
 
-file2chunk/
-	•	Core scripts for file handling and chunking
-	•	Main functionalities include:
-	•	File content analysis and word count (content_word_count.py)
-	•	Slide content extraction (extract_slide.py)
-	•	Main workflow for file processing (main_pipeline.py)
+### file2chunk/
+- **Purpose:** Core scripts for file handling and chunking.
+- **Main Functionalities:**
+  - **File Content Analysis and Word Count:**  
+    - Script: `content_word_count.py`
+  - **Slide Content Extraction:**  
+    - Script: `extract_slide.py`
+  - **Main Workflow for File Processing:**  
+    - Script: `main_pipeline.py`
 
-script/
-	•	Directory for auxiliary scripts
-	•	Contains:
-	•	Output editing tool (editOutput.py)
-	•	Data loading script (load_data.py)
+### script/
+- **Purpose:** Directory for auxiliary scripts.
+- **Contents:**
+  - **Output Editing Tool:**  
+    - Script: `editOutput.py`
+  - **Data Loading Script:**  
+    - Script: `load_data.py`
 
-src/
-	•	Project source code directory
-	•	Mainly includes:
-	•	Web application services (app.py, app2.py)
-	•	GPU monitoring and logging tools (gpu_log.py, gpu_monitor.py)
-	•	Front-end templates (templates/)
-	•	Core tools for the RAG system
-	•	Test code (test/)
-	•	API testing
-	•	Evaluation scripts
-	•	Performance analysis tools
+### src/
+- **Purpose:** Project source code directory.
+- **Contents:**
+  - **Web Application Services:**  
+    - Scripts: `app.py`, `app2.py`
+  - **GPU Monitoring and Logging Tools:**  
+    - Scripts: `gpu_log.py`, `gpu_monitor.py`
+  - **Front-end Templates:**  
+    - Directory: `templates/`
+  - **Core Tools for the RAG System**
+  - **Test Code:** Located in the `test/` directory, including:
+    - API testing scripts
+    - Evaluation scripts
+    - Performance analysis tools
 
-Main Features
-	1.	Document Processing
-	•	Supports content extraction from PDFs and other formats
-	•	Text chunking and deduplication
-	•	Coreference resolution
-	•	Intelligent summary generation
-	2.	RAG System
-	•	Retrieval based on vector databases
-	•	Text similarity analysis
-	•	Context understanding and coreference resolution
-	3.	Web Services
-	•	RESTful API interfaces
-	•	Real-time conversation capabilities
-	•	GPU resource monitoring
-	4.	Testing and Evaluation
-	•	Performance evaluation tools
-	•	Data quality analysis
-	•	Automated testing scripts
+## Main Features
+
+1. **Document Processing**
+   - Supports content extraction from PDFs and other formats.
+   - Implements text chunking and deduplication.
+   - Provides coreference resolution.
+   - Generates intelligent summaries.
+
+2. **RAG System**
+   - Utilizes vector databases for retrieval.
+   - Performs text similarity analysis.
+   - Supports context understanding and coreference resolution.
+
+3. **Web Services**
+   - Offers RESTful API interfaces.
+   - Enables real-time conversation capabilities.
+   - Monitors GPU resources.
+
+4. **Testing and Evaluation**
+   - Includes performance evaluation tools.
+   - Provides data quality analysis.
+   - Contains automated testing scripts.
