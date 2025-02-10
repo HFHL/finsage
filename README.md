@@ -40,6 +40,14 @@
   - **Front-end Templates:**  
     - Directory: `templates/`
   - **Core Tools for the RAG System**
+    - `apiOllamaManager.py`: Manages chat interactions with Ollama API, including history tracking and RAG integration
+    - `bm25Retriever.py`: BM25 retriever implementation for document search
+    - `chatService.py`: Core service handling chat interactions and RAG orchestration
+    - `ensembleRetriever.py`: Combines multiple retrievers (BM25, FAISS) for improved document retrieval
+    - `faissRetriever.py`: FAISS-based vector retriever for semantic search
+    - `ragManager.py`: Manages RAG collections and retrievers
+    - `vllmChatService.py`: vLLM-specific chat service implementation
+    - `vllmManager.py`: Manages vLLM model interactions and chat history
   - **Test Code:** Located in the `test/` directory, including:
     - API testing scripts
     - Evaluation scripts
