@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-<img src="./image/image-1.png" width="80%" height="auto" />
+<img src="https://pic1.imgdb.cn/item/67b72cb4d0e0a243d4010f0f.png" width="80%" height="auto" />
 </div>
 
 # 📚 Finage：用于财务文件的多方面RAG问答系统
@@ -15,7 +15,7 @@ FinSage 是一个专为金融领域设计的框架，旨在解决金融文档工
 实验结果表明，FinSage 在 FinanceBench 数据集上的召回率达到 92.51%，比最好的基线方法提高了 24.06% 的准确性。此外，FinSage 已成功部署为金融问答代理，应用于在线会议中，至今已为超过 1200 人提供服务。该系统已经开源，用户可以访问并使用。
 
 <div style="text-align: center;">
-<img src="./image/image-2.png" width="80%" height="auto" />
+<img src="https://pic1.imgdb.cn/item/67b72cb4d0e0a243d4010f10.png" width="80%" height="auto" />
 </div>
 
 
