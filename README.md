@@ -1,77 +1,24 @@
-# RAG_Agent
+<div style="text-align: center;">
+<img src="./image/image-1.png" width="80%" height="auto" />
+</div>
 
-## Directory Structure
+# 📚 Finage：用于财务文件的多方面RAG问答系统
+---
 
-### config/
-- **Purpose:** Contains configuration files.
-- **Details:**
-  - Example file: `config_vllm.yaml`
-  - Stores configuration information such as:
-    - Database paths
-    - Model names
-    - API URLs
-    - Other relevant settings
+## 🖊️摘要
 
-### file2chunk/
-- **Purpose:** Core scripts for file handling and chunking.
-- **Main Functionalities:**
-  - **File Content Analysis and Word Count:**  
-    - Script: `content_word_count.py`
-  - **Slide Content Extraction:**  
-    - Script: `extract_slide.py`
-  - **Main Workflow for File Processing:**  
-    - Script: `main_pipeline.py`
+FinSage 是一个专为金融领域设计的框架，旨在解决金融文档工作流中的合规性分析问题。在金融行业，企业通常依赖 检索增强生成（RAG） 系统来应对复杂的合规要求，但现有的解决方案往往难以有效处理数据的异质性（例如文本、表格、图表等）以及法规标准的不断变化，这使得信息提取的准确性受到影响。为了解决这些问题，FinSage 引入了三项创新的技术：
+  1.	多模态预处理管道：该管道能够统一处理多种数据格式，并生成每个数据块的元数据摘要，从而帮助系统更有效地整合和分析不同形式的数据。
+  2.	多路径稀疏密集检索系统：结合了查询扩展和元数据感知语义搜索（HyDE），能够从大规模文档库中精确地检索出与合规性相关的内容。
+  3.	领域专用重新排序模块：通过直接偏好优化（DPO）进行微调，优先提取与合规性密切相关的关键信息，确保系统输出的答案更符合金融领域的合规要求。
 
-### script/
-- **Purpose:** Directory for auxiliary scripts.
-- **Contents:**
-  - **Output Editing Tool:**  
-    - Script: `editOutput.py`
-  - **Data Loading Script:**  
-    - Script: `load_data.py`
+实验结果表明，FinSage 在 FinanceBench 数据集上的召回率达到 92.51%，比最好的基线方法提高了 24.06% 的准确性。此外，FinSage 已成功部署为金融问答代理，应用于在线会议中，至今已为超过 1200 人提供服务。该系统已经开源，用户可以访问并使用。
 
-### src/
-- **Purpose:** Project source code directory.
-- **Contents:**
-  - **Web Application Services:**  
-    - Scripts: `app.py`, `app2.py`
-  - **GPU Monitoring and Logging Tools:**  
-    - Scripts: `gpu_log.py`, `gpu_monitor.py`
-  - **Front-end Templates:**  
-    - Directory: `templates/`
-  - **Core Tools for the RAG System**
-    - `apiOllamaManager.py`: Manages chat interactions with Ollama API, including history tracking and RAG integration
-    - `bm25Retriever.py`: BM25 retriever implementation for document search
-    - `chatService.py`: Core service handling chat interactions and RAG orchestration
-    - `ensembleRetriever.py`: Combines multiple retrievers (BM25, FAISS) for improved document retrieval
-    - `faissRetriever.py`: FAISS-based vector retriever for semantic search
-    - `ragManager.py`: Manages RAG collections and retrievers
-    - `vllmChatService.py`: vLLM-specific chat service implementation
-    - `vllmManager.py`: Manages vLLM model interactions and chat history
-  - **Test Code:** Located in the `test/` directory, including:
-    - API testing scripts
-    - Evaluation scripts
-    - Performance analysis tools
+<div style="text-align: center;">
+<img src="./image/image-2.png" width="80%" height="auto" />
+</div>
 
-## Main Features
 
-1. **Document Processing**
-   - Supports content extraction from PDFs and other formats.
-   - Implements text chunking and deduplication.
-   - Provides coreference resolution.
-   - Generates intelligent summaries.
+## 立即部署
 
-2. **RAG System**
-   - Utilizes vector databases for retrieval.
-   - Performs text similarity analysis.
-   - Supports context understanding and coreference resolution.
-
-3. **Web Services**
-   - Offers RESTful API interfaces.
-   - Enables real-time conversation capabilities.
-   - Monitors GPU resources.
-
-4. **Testing and Evaluation**
-   - Includes performance evaluation tools.
-   - Provides data quality analysis.
-   - Contains automated testing scripts.
+## demo
