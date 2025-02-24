@@ -220,7 +220,7 @@ def main():
 
     # 设置根目录
     root_folder = "/root/autodl-tmp/RAG_Agent_vllm_tzh/src/experiment/processed_pdf/43-84/Base"
-
+    
     # 存储所有 `_content_list.json` 文件的路径
     content_list_files = []
 

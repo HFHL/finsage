@@ -127,7 +127,7 @@ if __name__ == '__main__':
     
     # collection0_dir = "/root/autodl-tmp/RAG_Agent_data/clean_1105/lotus"
     # collection0_dir = "/root/autodl-tmp/RAG_Agent_data/clean_1105_2/lotus"
-    collection0_dir = "/root/autodl-tmp/RAG_Agent_data/1208/lotus"
+    collection0_dir = "dir where your json file is stored"
     collection_dirs = [collection0_dir]
 
     BATCH_SIZE = 5

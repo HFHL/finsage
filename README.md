@@ -2,23 +2,65 @@
 <img src="https://pic1.imgdb.cn/item/67b72cb4d0e0a243d4010f0f.png" width="100%" height="auto" />
 </div>
 
-# 📚 Finage：用于财务文件的多方面RAG问答系统
+# 📚 FinSage: Multi-modal RAG QA System for Financial Documents
 ---
 
-## 🖊️摘要
+## 🖊️ Project Overview
 
-FinSage 是一个专为金融领域设计的框架，旨在解决金融文档工作流中的合规性分析问题。在金融行业，企业通常依赖 检索增强生成（RAG） 系统来应对复杂的合规要求，但现有的解决方案往往难以有效处理数据的异质性（例如文本、表格、图表等）以及法规标准的不断变化，这使得信息提取的准确性受到影响。为了解决这些问题，FinSage 引入了三项创新的技术：
-  1.	多模态预处理管道：该管道能够统一处理多种数据格式，并生成每个数据块的元数据摘要，从而帮助系统更有效地整合和分析不同形式的数据。
-  2.	多路径稀疏密集检索系统：结合了查询扩展和元数据感知语义搜索（HyDE），能够从大规模文档库中精确地检索出与合规性相关的内容。
-  3.	领域专用重新排序模块：通过直接偏好优化（DPO）进行微调，优先提取与合规性密切相关的关键信息，确保系统输出的答案更符合金融领域的合规要求。
+FinSage is an intelligent framework specifically designed for the financial sector, addressing compliance analysis challenges in financial document workflows. While enterprises in the financial industry typically rely on Retrieval-Augmented Generation (RAG) systems to handle complex compliance requirements, existing solutions often struggle with data heterogeneity (e.g., text, tables, charts) and evolving regulatory standards, impacting information extraction accuracy. To address these challenges, FinSage introduces three innovative technologies:
 
-实验结果表明，FinSage 在 FinanceBench 数据集上的召回率达到 92.51%，比最好的基线方法提高了 24.06% 的准确性。此外，FinSage 已成功部署为金融问答代理，应用于在线会议中，至今已为超过 1200 人提供服务。该系统已经开源，用户可以访问并使用。
+1. Multi-modal Preprocessing Pipeline: Unifies processing of various data formats and generates metadata summaries for data chunks, enabling effective integration and analysis of heterogeneous data.
+2. Multi-path Sparse-Dense Retrieval System: Combines query expansion and metadata-aware semantic search (HyDE) to achieve precise retrieval from large-scale document repositories.
+3. Domain-specific Reranking Module: Fine-tuned through Direct Preference Optimization (DPO) to prioritize compliance-related key information, ensuring outputs align with financial sector regulations.
+
+Experimental results show that FinSage achieves a recall rate of 92.51% on the FinanceBench dataset, improving accuracy by 24.06% compared to the best baseline method. Currently, FinSage has been successfully deployed as a financial QA agent, serving over 1,200 users in online meetings. The system is now open-source and available for public use.
 
 <div style="text-align: center;">
 <img src="https://pic1.imgdb.cn/item/67b72cb4d0e0a243d4010f10.png" width="100%" height="auto" />
 </div>
 
+## 💻 Deployment Guide
 
-## 立即部署
+### Environment Requirements
+- Python Version: 3.10.14
+- Install Dependencies: `pip install -r environment.txt`
 
-## demo
+### Data Processing
+1. Extract PDF content using MinerU (Reference: https://mineru.readthedocs.io/en/latest/user_guide/usage/command_line.html)
+```bash
+magic-pdf -p {pdf_path} -o ./data/chunk -m auto
+```
+where `pdf_path` is the path to your PDF file.
+
+2. Navigate to `./file2chunk`
+   - Modify the `root_folder` variable in `main_pipeline.py`'s `main` function to point to the `/auto` path in MinerU's output directory
+   - Specify the output path
+   - Run the processing pipeline and place the generated JSON files in `./data/chunk` directory
+
+### System Configuration
+1. Modify `./config/config_vllm.yaml`
+   - Set `persist_directory` for ChromaDB persistence
+
+2. Data Loading
+   - Navigate to `./script`
+   - Update `collection0_dir` variable to point to your JSON file storage path
+   - Execute data loading:
+```bash
+python load_data.py
+```
+
+### Model Deployment
+1. Download models (See `./models/models.md` for details)
+
+2. Load model using VLLM:
+```bash
+nohup vllm serve Qwen/Qwen2___5-72B-Instruct-AWQ --max-model-len 5120 --gpu_memory_utilization 0.65 --enforce-eager --swap-space 36 --disable-log-stats --uvicorn-log-level warning > vllm.log 2>&1 &
+```
+
+### Launch Service
+```bash
+cd ./src
+python app2.py
+```
+
+Access the web chat interface at `localhost:6005/test_api_chat`.
